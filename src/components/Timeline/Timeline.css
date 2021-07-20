@@ -1,0 +1,53 @@
+.timeline {
+  padding: 0;
+}
+
+/* Header */
+.timeline .timeline-header {
+  padding-top: 7px;
+}
+
+.timeline .timeline-firstItem {
+  min-height: 80px !important;
+}
+
+.timeline .MuiTimelineItem-root {
+  min-height: 0px;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.timeline .timeline-dot-header {
+  color: #000;
+  background-color: var(--main-color);
+  font-size: small;
+  padding: 10px;
+}
+
+/* Reamining Items */
+
+.timeline .timeline-dot {
+  color: #000;
+  border-color: var(--main-color);
+  padding: 2px;
+}
+
+.timeline .MuiTimelineConnector-root {
+  background-color: #eee;
+}
+
+.timeline .timeline-dot-header > .MuiSvgIcon-root {
+  color: darkslategray;
+  font-size: 20px;
+}
+
+.timeline .seperator-padding {
+  padding-left: 18px;
+}
+
+.timeline .timeline-content {
+  padding-top: 0;
+  margin-bottom: 20px;
+}
