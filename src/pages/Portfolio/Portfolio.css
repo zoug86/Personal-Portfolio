@@ -1,0 +1,55 @@
+/* Tabs */
+.customTabs .customTabs-item, .customTabs-item-active{
+   padding: 0 !important;
+   min-width: 0 !important;
+   margin-right: 20px !important;
+   text-transform: inherit !important;
+   font-size: 14px !important;
+   font-weight: 400 !important;
+   outline-width: 0 !important;
+}
+
+.customTabs-item-active{
+    color: var(--main-color) !important;
+}
+
+/* Cards */
+.custom-card{
+    
+}
+.custom-card .custom-card-image{
+
+}
+.custom-card .custom-card-title{
+
+}
+.custom-card .custom-card-caption{
+   font-weight: 550 !important;
+}
+
+.MuiCardActions-spacing{
+    padding: 0 !important;
+}
+
+/* Dialog */
+
+.project-dialog{
+    /* display: flex;
+    align-items:center;
+    justify-content:center;
+    max-width: 800px; */
+}
+.project-dialog .project-dialog-image{
+
+}
+.project-dialog .project-dialog-description{
+
+}
+.project-dialog .project-dialog-actions{
+
+}
+.project-dialog .project-dialog-icon{
+   color: darkslategray;
+   margin: 0 12px;
+   cursor: pointer;
+}

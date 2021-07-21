@@ -22,7 +22,7 @@
 }
 
 .header .header-link-active {
-  font-weight: 500;
+  font-weight: bold;
   color: var(--main-color) !important;
   text-transform: uppercase;
   font-size: 14px;
@@ -40,6 +40,11 @@
   justify-content: center;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+}
+
+.header .header-home:hover {
+  background-color: #FEB100 !important;
+
 }
 
 .header .header-left {
