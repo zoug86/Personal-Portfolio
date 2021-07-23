@@ -34,22 +34,33 @@
 /* Dialog */
 
 .project-dialog{
-    /* display: flex;
-    align-items:center;
-    justify-content:center;
-    max-width: 800px; */
+    overflow: hidden !important;
 }
 .project-dialog .project-dialog-image{
-
+   overflow: hidden !important;
+   /* height: 100px; */
 }
 .project-dialog .project-dialog-description{
-
+    overflow: hidden;
+    margin-top: 10px;
 }
 .project-dialog .project-dialog-actions{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
 }
+
 .project-dialog .project-dialog-icon{
    color: darkslategray;
    margin: 0 12px;
    cursor: pointer;
+}
+
+.project-dialog .project-dialog-icon:hover{
+   color: var(--main-color);
+}
+
+.project-dialog .project-dialog-icon .MuiSvgIcon-root{
+   font-size: 30px;
 }

@@ -35,7 +35,7 @@
 }
 
 .timeline .MuiTimelineConnector-root {
-  background-color: #eee;
+  background-color: rgb(199, 185, 185);
 }
 
 .timeline .timeline-dot-header > .MuiSvgIcon-root {

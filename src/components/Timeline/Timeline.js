@@ -1,5 +1,5 @@
 import React from 'react';
-import {Typography} from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -12,33 +12,33 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 //styles
 import './Timeline.css';
 
-const CustomTimeline = ({title, children, icon}) => {
-    return (
-        <Timeline className="timeline">
-     {/* Item Header */}
+const CustomTimeline = ({ title, children, icon }) => {
+  return (
+    <Timeline className="timeline">
+      {/* Item Header */}
       <TimelineItem className="timeline-firstItem">
         <TimelineSeparator>
           <TimelineDot className="timeline-dot-header">{icon}</TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-            <Typography variant="h6" className="timeline-header">
-                {title}
-            </Typography>
+          <Typography variant="h6" className="timeline-header">
+            {title}
+          </Typography>
         </TimelineContent>
       </TimelineItem>
 
       {/* Remaining Items */}
-      {children}  
+      {children}
     </Timeline>
-    )
+  )
 }
 
 export const CustomTimelineSeperator = () => (
-    <TimelineSeparator className="seperator-padding">
-        <TimelineDot variant={'outlined'} className="timeline-dot"/>
-        <TimelineConnector />
-   </TimelineSeparator>
+  <TimelineSeparator className="seperator-padding">
+    <TimelineDot variant={'outlined'} className="timeline-dot" />
+    <TimelineConnector />
+  </TimelineSeparator>
 )
 
 export default CustomTimeline;

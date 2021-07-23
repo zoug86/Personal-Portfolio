@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { NavLink, withRouter } from 'react-router-dom';
 import { HomeRounded, NearMeRounded } from '@material-ui/icons';
@@ -9,7 +9,23 @@ import CustomButton from "../Button/Button";
 import './Header.css';
 
 const Header = (props) => {
+    // detect screen size change
+    const useWindowSize = () => {
+        const [size, setSize] = useState([0, 0]);
+        useLayoutEffect(() => {
+            function updateSize() {
+                setSize([window.innerWidth, window.innerHeight]);
+            }
+            window.addEventListener('resize', updateSize);
+            updateSize();
+            return () => window.removeEventListener('resize', updateSize);
+        }, []);
+        //console.log(size);
+        return size;
+    }
+    let size = useWindowSize();
     const pathName = props?.location?.pathname;
+
     return (
         <Navbar bg="light" expand="lg" sticky="top" className="header">
             {/* Home Link */}
@@ -30,10 +46,13 @@ const Header = (props) => {
                     <Nav.Link as={NavLink} to="/Contact" className={pathName === "/Contact" ? "header-link-active" : "header-link"}>Contact</Nav.Link>
                 </Nav>
                 <div className="header-right">
-                    {Object.keys(resumeData.socials).map(key => (
-                        <a href={resumeData.socials[key].link} target="_blank" rel="noreferrer" >{resumeData.socials[key].icon}</a>
+                    {Object.keys(resumeData.socials).map((key, i) => (
+                        <a key={i} href={resumeData.socials[key].link} target="_blank" rel="noreferrer" >{resumeData.socials[key].icon}</a>
                     ))}
-                    <CustomButton text={"Hire Me"} icon={<NearMeRounded />} />
+                    {size[0] > 990 ?
+                        (<CustomButton className="hireme-btn" link="mailto:marzouguih86@gmail.com" text={"Hire Me"} icon={<NearMeRounded />} />) :
+                        null}
+
                 </div>
             </Navbar.Collapse>
         </Navbar>

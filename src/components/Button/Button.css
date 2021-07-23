@@ -40,3 +40,8 @@
 .custom-btn:hover {
   background-color: #FEB100 !important;
 }
+
+.custom-btn a{
+   text-decoration: none;
+   color: #000;
+}

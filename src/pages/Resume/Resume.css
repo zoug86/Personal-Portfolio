@@ -3,12 +3,31 @@
     font-weight: 600;
 }
 
+.resume-timeline .timeline-content .timeline-title .education-logo{
+margin-right: 8px;
+}
+
 .resume-timeline .timeline-content .timeline-date{
     color: darkslategray;
+}
+
+.resume-timeline .timeline-content .timeline-degree{
+    color: darkslategray;
+    font-size: small;
 }
 
 .resume-timeline .timeline-content .timeline-description{
   color: gray;
   font-size: small;
   margin-top: 6px;
+  white-space: pre-line;
+}
+
+.experience-logo{
+  margin-right: 8px;
+}
+
+.timeline-publicaiton a{
+  text-decoration: none;
+  color: rgb(143, 84, 84);
 }

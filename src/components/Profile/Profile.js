@@ -8,6 +8,7 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import CustomButton from '../Button/Button';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
+import resume from './resume.pdf';
 
 //styles
 import './Profile.css';
@@ -50,7 +51,7 @@ const Profile = () => {
                 </CustomTimeline>
                 <br />
                 <div className="btn-container">
-                    <CustomButton text={'Download Cv'} icon={<CloudDownloadIcon />} />
+                    <CustomButton link={resume} text={'Download Cv'} icon={<CloudDownloadIcon />} />
                 </div>
             </div>
         </div>

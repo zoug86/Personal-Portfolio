@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Container className="top-60">
-        <Grid container spacing={6}>
+        <Grid container spacing={4}>
           <Grid item xs={12} sm={12} md={4} lg={3}>
             <Profile />
           </Grid>

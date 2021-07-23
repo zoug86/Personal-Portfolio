@@ -5,13 +5,14 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import { School, Work } from '@material-ui/icons';
 import resumeData from '../../utils/resumeData';
+import AttachFileIcon from '@material-ui/icons/AttachFile';
 
 // styles
 import './Resume.css';
 
 const Resume = () => {
     return (
-        <Grid container className="section pb-45  pt-45">
+        <Grid container className="section pb-60 pt-45">
             <Grid item className="section-title bottom-40">
                 <span></span>
                 <h5 className="section-title-text">Resume</h5>
@@ -22,14 +23,18 @@ const Resume = () => {
                     <Grid item sm={12} md={6}>
 
                         <CustomTimeline title={"Experience"} icon={<Work />}>
-                            {resumeData.experiences.map(experience => (
-                                <TimelineItem>
+                            {resumeData.experiences.map((experience, i) => (
+                                <TimelineItem key={i}>
                                     <CustomTimelineSeperator />
                                     <TimelineContent className="timeline-content">
-                                        <Typography className="timeline-title">{experience.title}</Typography>
+                                        <Typography className="timeline-title">
+                                            <img className="experience-logo" src={experience.logo} width="50px" alt="logo" />{experience.title}</Typography>
                                         <Typography variant='caption' className="timeline-date">{experience.date}</Typography>
+                                        <Typography className="timeline-company">{experience.company}</Typography>
                                         <Typography variant='body2' className="timeline-description">{experience.description}</Typography>
-
+                                        <Typography variant='body2' className="timeline-publicaiton">
+                                            {experience.publication && <a href={experience.publication} target="_blank" rel="noreferrer">Research Publication<AttachFileIcon /></a>}
+                                        </Typography>
                                     </TimelineContent>
                                 </TimelineItem>
                             ))}
@@ -38,12 +43,14 @@ const Resume = () => {
                     {/* Education */}
                     <Grid item sm={12} md={6}>
                         <CustomTimeline title={"Education"} icon={<School />}>
-                            {resumeData.educations.map(education => (
-                                <TimelineItem>
+                            {resumeData.educations.map((education, i) => (
+                                <TimelineItem key={i}>
                                     <CustomTimelineSeperator />
                                     <TimelineContent className="timeline-content">
-                                        <Typography className="timeline-title">{education.title}</Typography>
+                                        <Typography className="timeline-title">
+                                            <img className="education-logo" src={education.logo} width="50px" alt="logo" />{education.title}</Typography>
                                         <Typography variant='caption' className="timeline-date">{education.date}</Typography>
+                                        <Typography className="timeline-degree">{education.degree}</Typography>
                                         <Typography variant='body2' className="timeline-description">{education.description}</Typography>
 
                                     </TimelineContent>
