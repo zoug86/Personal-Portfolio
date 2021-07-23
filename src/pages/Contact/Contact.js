@@ -123,7 +123,7 @@ export const Contact = () => {
                 <Grid container className="bottom-40">
                     <div style={{ height: '45vh', width: '100%' }}>
                         <GoogleMapReact
-                            bootstrapURLKeys={{ key: 'AIzaSyB6-4ees-aXnbGcYCSWj3LJkEC9wjkRJLo' }}
+                            bootstrapURLKeys={{ key: `${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}` }}
                             defaultCenter={center}
                             defaultZoom={zoom}
                         >
