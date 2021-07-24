@@ -176,45 +176,54 @@ const resumeData = {
             ],
         },
         {
-            tag: 'React',
-            images: ['https://lh3.googleusercontent.com/gMA48N_VZDH75zaInxsORnxo5y6RM6YG51rLtDXaoOLy1WULVxQTBcvWA68HjIJnGwxBgcbmON62uj-y2hYEKSu_8-RS-B1ggIctjPA6hqG3AvEQcvV9MLN9dSdy9sUy7AIM5qB87qAlZTvBpOSgm_voirO5xmHqCwPOysNBYPMViMP3yLzlZ4wNO3lQbsgOqqAVp6ObMXBCUgzHg-r0tzt1-yPTJa0QMHrHnLbyPgHHBeiHM2n-fdk1fdlWrcA1Um2x-BLZMd5uR0NveMLsVIExyQhmvJkas8sraoGQYjMq63SRqx3ST5ZHw_3AHn3MkE3g-bMvathpkudpE5Z_kyd2iVwnj6NSf7fl692awvIUaThvFf7j8_H2Ox9oFqmqrVUKHxZyMbWLdvDljmABBYyFyyHp-aHJTPaIUraYXTFRiB3s7ZN6R4sj7kigR6sso8KE5v0VGh-lkbqtLfJLAJv8gSi7V7mXjiPAD9mwgy8dXjjlBMmhVknqCM0PDVAGe6e9Kqa9U2erXx4HzTW-EfP9pgUuPvllyjeJNNLB8NAM2myrUglHYcTGdO6uXROB_SHf2ksUQZ3MEC0a_IQCRnpWUxk_dMx9AgZScGushu6phJBfO2Phkj6xcZo9ppBUsWlMw8eX5nIr5AFFQUIxghN5QADzp1wpwX6KY_rMmCiBhrywJYD_sP3KMuV1qOktdEysL7A67-bozPRs8TgXhkw=w1684-h947-no?authuser=0',
-                'https://wallpaperaccess.com/full/1758750.jpg'
+            tag: 'Frontend',
+            images: [
+                'https://lh3.googleusercontent.com/lx3zdWIzidZbi6IrXw5iRnUSf9rmqkEuRya8F1_5PgddFGHXss02q1JgoOfoHC64uBiLHsrbNDqdsCqTHQjf5B7eJ6jBq49w-H0d1aU-Uddhg_VS58gwWuA0Rol7BxcKuhKhGcP5zRzYJNR0AyTGDMC-7AadagJbdKvZd4OoGRFEOB2FhfvGeg3Zz3Kf5kqh8cX1avikkX2O2R2kiI0d4KL-K0kHGoytv90lGoEYCAyV7KwptQpKYMjJdAojPhErMNdIyUSgpeC4WnoCdIPBvzmVIVTlnDDrMAGZ3i1qUiysRdL8pMTtctnZnY_tbtkMQ2Aneq9d7_bWvzZZgXTqlnCSWjerMWMn2nXQAeDFacqUx0ecrn2RM0jBPN7X_PNJH0ixpEfNG09jGKkyr2fvQabtjTm1xxMlUIoXmizV_a9DLfEtdgY3x0nRVDoEGBZP5SFs3sXM19O_oTaCXfHf-xRMUK6gTMzc0qcxja_fdmXVqj9tuOhYPdvr-HxB7tu21DC5XqrstWJ8e1XOfeGTzKNvmdYs5yDlpx9Zy9BohA_aUr9Won4qzEMIHtyfkAKo6ZvE87cPKWOIp1jsV5pDCTYHTSNSRlPZdEt8WvGrNzEFu4rjQqWRBPjMu5E076W_FdORFy81RRO7GsYP1QEv4rHR8qDR5AKV7TF5TQA5fxidg2B_QXjK-Wndc_alw-0UgF0qVb6e_8tkDUnlw3lAGQY=w1894-h947-no?authuser=0',
+                'https://lh3.googleusercontent.com/nBPbjE8xIlhuPgsw33pjWw0r6Qnq2hMIjbR2m1PSU-SLVdG0uD74kSYpFoqZ7KUTapOLiX4TuGkR0fB2sS34zZT4mzTnzZKl0AiAKu7RlGwSsMO9C3iNRxMpvkUfcOz9fXsvsw_suzn_EC90aweWxahcRVO5jVsMwezyZpm9GQ5R0BKDJbNLNC_h8KOYvGJuGjG4P3Vpip40IYiVHnuqEk6YWfh5UAVJP9QnGgEyw3Pz4O7fSWXeHPuC_bwEY-HIIhYbyvIUWpPeVqZ4YaQCavArGhXdC-36XjBR8hhtKQ1IQS6uI0pvGnsBAHRxgMysiwp0EGbp69u8mYJM7iM5pKRm_C0WnSsW5YtHINry3gmRoIxor8W0XT2vGPVsENuOEqgCAVSwE58NFw63-ueuQCwQQJ9oEqvLq2xmZYv-07UKF9OLzMkvoJOlPJTzy-1ak12EIe1kQsHb98zlmOaqSPMV82tZSfio23luTtXjEssBh8ybQYLHIyTmW104dH-tBup3SP5jnC8Mfqxmk0vMA7STT1er1eKqdt1rJiRWh6_tqOaG3LMAwQu-8xN9oIXxC5tSi1SXMi-yiTioB-cQb591kiuSw5ZZEvoXqjcUCgUYThYdZSU-jnuDJvXI6OlhBpOGTYnPR9wYcSEEcg0LuPpCuVLH4CETNko2d4WSteps_4PV-jSWNIuOKloEvWFYdKg5N0Hu0978FjyXOTtChaE=w1896-h935-no?authuser=0',
+                'https://lh3.googleusercontent.com/uQPmt6IsT3vTRZGAPjx8NkJ6kyVIC-yCQqHCinfFeJ0BqjxhhHamjnaqyDbZdkOImf-e8gJd5GO5TY2FtGqZdoJEHJ4I5tz-yhnJli9MJ64sCBDi-EVV-qoGJSMv307bmpUsbYVz8_qMugc6qRKe2HRIMbOEaOCs28wwjAUP-lFnLqWpWoTfZnUXqNyHOFjB58GPfBDWU_hSorR-EAZ1FNi3y1SSAQ3nzU5nKXW4TrR4o9aqDehQj0eFWMQFf8daJf0cf2wwy93D_jPV3Th2gw-xn07jUe-GK3OOh9GDAprhEIMxffKw-yDfniWGkkkMTsXwbfYmTOr3yR4MZTYbXQjEPrvsa4b4eg_o5mseG5g6n3E8YK1JIbIFE_NGUCuUBIgJ-CufNqEiBsAb-_jpmmAE2rT-aZefYR9w_vlLrHK0z9vtC3-Qe7gfEYMLa0qUo0Af_kHUe1YcjRGlW9Z_x72gGIp0kwkWdVwpCteSY5v5FoMb2BwpXV60cP7lKYuClVzpoIt_nFcsYXXPDRu21dxLqq-ud1VTwAv8ZZ89W8g38sceisYdAzj1dlW8Q-9QhSQlEQSEyV0YwEueixCpDyaJR8tf_lB44n_6_qgqhh1vQg9GpydhNt1RlYeN4jeyfH_GsvqK1_0aSW9Shm7dc0-nsxBbssky6RXMceKkevgxLBUJDJ__MmZUhoaY8cXJnc4h-dmtnbpXrGEbSZ5tgTc=w1888-h947-no?authuser=0'
             ],
-            title: 'Project 2',
-            caption: 'This is my project description.',
-            description: 'This is my project description. More will come later on...............',
+            title: 'Restaurant App',
+            caption: 'A front-end website.',
+            description: 'A restaurant responsive website built with HTML, CSS, and Javascript.',
             links: [
                 { link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://www.google.com', icon: <GitHubIcon /> },
-                { link: 'https://www.google.com', icon: <Language /> }
+                { link: 'https://github.com/zoug86/restaurant-website', icon: <GitHubIcon /> },
+                { link: 'https://zoug86.github.io/restaurant-website/', icon: <Language /> }
             ],
         },
         {
-            tag: 'React',
-            images: ['https://wallpaperaccess.com/full/1758755.jpg',
-                'https://wallpaperaccess.com/full/1758750.jpg'
+            tag: 'Frontend',
+            images: [
+                'https://lh3.googleusercontent.com/499zmxkRcrmkld2SZdu1kIvHM-Aws9JQW-WUqVbYgBVgg8ABODcMqZXBsAt3yijn1F-Zn9y13ZtDD-OFE3dhKsF98d4tqR9OYW0MX53AwuDAoVBwqlgksYJWifnJh0RASQX4EkxK4PdFib1LjIFbsJxG1lwEOPpydv8SG1zf6ahM3TcUbCtMaf6-niKlxqB2zSHbKd5_QI3Fd-QxGzoaSuJHr_bv6r5zTOLGbVtm24EpWYoY52ZLX8YjjeeCQGKrx7HIIH4niWebtAEHQiaqyT4UcL3ekP2ToADhSWpYVTUUvYcHQY_qWlsQBtUVuZe1FDkwmC9s99jsDZ7DHNqvTqLbxuRe7Q_uCaFNj4nHoTG_fPpiz-cMKZenC6eF5wSeMfG5ITIdZDANSZBcCtrm8KUFpC4KS35HjzemmFHs7r_wuqEJtpX449jPtFiz5SZlLigT7MZ_MDt7icHfY2vWQakof20VgzsPRglOAXYdVvRyobFqzPheSpAX90ZNV-1JpgvpvkrbvhWvz2GxUcq9qBMyzRnsZYzmA9gdanxXMjFT3dBkcwMF9fidRntK52-IwAipIAEbiMStOIDLEglj1hNq74EiHfMduBQzB85WdWeFIYL-gYsEPqT7znp49W_lmTDPCmI7wFegVb-HRxm-wtI31UzoT5r0RRHgNsaDistFzcmjxfN6FnRjJSHKyS_lk35nqJm9mGTmntWoZnRvpxk=w1896-h946-no?authuser=0',
+                'https://lh3.googleusercontent.com/1BLAkBN310c85ql_QK7DawdakaVr_bzEmTiCkce52ufYPb57IXxqJO3iwICulx6GBj_B7nkAhZFx435muoGGZPonD5jobW6JZs5g3nh7liKH35GNklHc5upenFVWTfnpCsQO8JAh2sKZOXROvr33ZvbnomY5_YF1Jo49EwiOVkyf2voO9tzaJHb_R1-6fOcgG7uJfq15OqwRKQDYF2yGNaM7qSZM7R8eeN8OnwrPtHwoZ-L5SsLj8IiGcfQxjyHtc3wOusUX5wTeW7mKStpHgnolnIReVmIJuMMpAIULJXy4CLOFSieBDk7EqvGfL85Xz4CffHic2Ozu0DUn2T4_Z4w37gCAz3-UKKo6wLx103XKNURp7LVmemxEsFcSaJeOhPGRYaCmNTjurJgn8QhJJ-fygLEfZ6Tw2V4bomoMvELh08sxzFlAgJ980qLuEBzjzEnW1lvD5yOAUGIbLfRvXfg5Jf0BRMBtJ13-wdJBoMR8Y-G9-RIo6iZXsQdqSnxMm4HHFY_TEoIMHALNogzYm61WwBtrZFt0LHZzQZG2--38XYa6_uij52Dr8qWJNjXydVphNQWPI35WxKm9ZXzuy4es9b98z3gd2T1syWNOOC4wyw7bflSAMkyRGLIOpy4Y-oGZ-ab1b14XUcGsKsTXcLAbuk6fAIBTFqDJrUeobEhJprDgbxMFfSBBBGvPvcHcX-qfVIK1s03uN_Sfw6VbV6A=w1896-h943-no?authuser=0',
+                'https://lh3.googleusercontent.com/_rRpRQWkF67kZi9YMgcAh-MtZdJ9m05wn8tMMbGld4qICyeQFaEri18N9sO4kkfO7-hrjXxRrPpviXlBmwxi5Es4bdj-75_gVrb-DbLaroAmR4yRyEhb_0tEIARfom9_YVht-equO-4jF09p1QdZRHm5Cm1UnJ7T8nx_QENRgddQ5YrC1rtaiq5os4ezxEcj_BdI4ekHL2cEFLoyiaczBLfApqIxmMMaXdsvh-kRk1_bv4GZdzk5HQiKrgS0cwBbOeWy5maEXNIO8ShG33J3tvGSteesOTQxPj7cWeeTzspciTvdM0u_ibwA1Suc3LnIy2ou7Zph6swCNnvCmdKvsdXa-PCdpIDE4B95cMcUsgFlFfhSIF8qa6Bhq41fPgef8HFqOyAZ8x2QgxX20eCk2i2olbQzFYEsWQA-BXHIty4JM54d9zdiJPVPYsmCOnQFhHq6B0ERm9hM8Qr-D-u4l3zQKCUPttPuBDO25siuoX4cROwhOe2D_bkj5sYqCXoMzkgDseN-Rd8RIpV-yoIBgqWfq2SkZoctGzUgHY6NQ6PCF_l2PEuikgWH2tsdqgpzuOMmRhZ7r4KYkqrwwazvJEuOizwa04sw_M87E0_ObwFglcoSQkXb963AST3Msa3GFvKD-pJgSfkUCeeZ4G0Zu5tZVChG2NcTrGvOgo5L8aAxhTngS5rp2dZ4PctJ9o8KABPUjQSMY1oHT3PktEKRDiY=w1894-h943-no?authuser=0',
+                'https://lh3.googleusercontent.com/Vr5_o7NEx7AHbFyaEd13uIC0cZ6RvNtIVzYJwVqfmHBNhWp27LPrTsSBoU3zNPBaTo44MBMsnY8NCUnEEnLe-fXk5gAJLSZn3kRB-lxuChnEP0FAHCIWdcwl36dd99QALN2AEZUuRMkSeXxnxq2BgKk9gnzij9a4fgBjybWVOv5GMU2te4NiPIPusvqI_Gi2Ta1QhVJMGdgfDbCxpj8NrIGbaMT4wWTum6lxqIE_o_oYttFbNUeyCrc3HtETkOWnSCzEgp1ECzYztcHViTCfKX2QJOQko4k2_SgP5A40DtPCQVQEK3LomCfnV65qyvN5qQHIjC2KV4FyBKGveZSKX634zclbsG4i80ZUGESjmaG7r05wBpWApxxnLfN_gl9vW2t5fhwJYxHhvAAAkUG6gBdr1C4q0vut-GDSCfPKfaOix8Fp1f1D41mI5coqppRlhe8s4d52EY6Pf1Ri8U1y0o-uB3RriTAmxosPIZ9dNFCApP4ob216FtADG579LzClP-uO1eByhYDA80NamhokoC6Bg80UGLT2-81FVPBKQrCLN5lc1S-t_t92FHTd-knmZY2BiY2SUKlN8EMlX5PNUihyCdYqnEdz4gIfZ_t1qdg_3IEaIPzMn0p1QjtoipLw7ZurcwigV_OS4xafEmo0SffriMyAvz6R1WL_fE7lEpEQEcqXU-Tg2iPxYzPUGXkASqAlllF8ZF5FAsgM7zyxZaY=w1898-h943-no?authuser=0',
+                'https://lh3.googleusercontent.com/W0yds6O4DLZP8BWhQnWpWaRlk9bUK8TcIvuVt4I9nQMVgG9Gt2WkfjFphrqmUZIuMJpx9JvSBMyWkYhlse1slEn-KDiyQiVq7O_v5R2mOoHOCXMd20FHfVuXbyyB9waORSIFtHxVdIFpIMLqi-u7jBagh9mjjfrT_UBCcTJEasIGBQ3hFCpl84ZYVSH6HhK5USiMvnSo3QB6UbEIHI9no_aBi5WEtq_DSsbYJXBCs_n9sPvncIFgw2kgutZR472oEVSF4RtInTxaafBDV16toYfIxOVUYTayQjAPl7sZJbhRMhnYASagRojVu54SaXhf32T7Wr59ptYB3mSfPwhvTQxgUJ9QeNIFjwucpvdtILZWnrnx-G91RL8vSAcWD08boETTQPDIWemIT4pICiYG5h4QJS8mgYIbnYzGc2JsWyquOPi0KrQmrOGet4nIQT-XqrUZNjbx2BQ4FAkAKDR0unoknQWOJPiTD1kecadmEhfFH_XRM3_Bjzd49N0R4qdx2bMh6qdkEdxpm6P2i84LeBDzxf5eONWzL70J_G_27LRSOLqGjxwnaH3h30puEINHQ3wsT21TgV1WRbu4j7guhN3426p9Mjw2uEOwX5EPnTeHVRNVbXdJXWZQQq0LYmX45FIE2LxHssyvXeD9uYfdR-5QrzYjzrusVX3jrfbrPlDIFicJwiJey_S-BQP4IyglZXECAExUw6WBxnOuamvoy5k=w1901-h944-no?authuser=0'
             ],
-            title: 'Project 3',
-            caption: 'This is my project description.',
-            description: 'This is my project description. More will come later on...............',
+            title: 'Creative Design App',
+            caption: 'A front-end website template.',
+            description: 'A creative and responsive website design done in HTML, CSS, and JavaScript.',
             links: [
                 { link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://www.google.com', icon: <GitHubIcon /> },
-                { link: 'https://www.google.com', icon: <Language /> }
+                { link: 'https://github.com/zoug86/WebsiteCreativeDesign', icon: <GitHubIcon /> },
+                { link: 'https://zoug86.github.io/WebsiteCreativeDesign/', icon: <Language /> }
             ],
         },
         {
-            tag: 'Nodejs',
-            images: ['https://wallpaperaccess.com/full/1758755.jpg',
-                'https://wallpaperaccess.com/full/1758750.jpg'
+            tag: 'API',
+            images: [
+                'https://lh3.googleusercontent.com/L4_y_Wz0JV_PwmOwDF52Pne7gOxH3BJKo7wtdGzXxAIR1L8WNz6rMEzqH8p769kqOEHZk6ZF1L0BwoG1UeztVNUa18uFACOk5kyvzt1Dy1i-TKpjHbwxrOK_JrBiiUnO22yzVj_o3ptbMr-wwvAk_J_QttT6CN7paIled4fXYjqSRlR8PX9OzWwFhDTdYdy8oga_ts0NdihGcjM4Epitmj6nafPJvDK1O1XkOdEpXcr3PiptRqAOnAzsrF4Y-UY5l4APLXmRwfA6e36zrCAt4Zhxebnp0xwf1XgCBPUz8PsM9P-wgJfoVaV7wS0dvG1YeNSSHAtkg4wflaMJui4i85YkwJ8xXhabSjwdKWP7vMwlNmMWtcDPhSLYYxc-Xyb6f61N6NTl6MPFZDYjcQyWofXvANsdlEOrz0bgY4UL5GdqEeUDzPQROSP2VYFQOfXwmf_oTTgpQNr6Hte6SPW1JUnu3GE30hWtxciTk038xglqxTQoxp274VCQd7y14vFbtD2wfM1IOwApdyIPjVQuveQJtYyfIcQroJSmhhExjJmLkY4zOauhrCaL9lbh7Vzucz1OdpXfOniFVQutPn8SfKiHGKAt61n_sMHaNEjwSzKkI3X16c6hL8I2B2IWR6-JRr6tW8VOgD4fU9cNPUJFgt8Zhm2jNXveS9ba-nV9W948wIHcbaNi2T21_P1I7UgXAU9gwuG6C118jBgi0o3Pg3w=w1898-h945-no?authuser=0',
+                'https://lh3.googleusercontent.com/KJiau3_lkY3ZexEW57QUVLx3TnU0VymH9UOodYSIieyM5BjvoLZmiiBkBBlR2H4R-n-MzJSCREmNJX0GFHe_NuO4kQQav3MjWe8CMX1GrN-KI5bqDVemsnnffbrLi23lls0CIBXwKuF092Uowy3K1vjJhTYwXHl-S1L6n-AEdTJshzHrP8Y1CGMfKrOfxTNoI8p-LT5_QgLeFAzWBb5IZt7VjiL2IxN0d3sgBI0Z7bK0Jlm_g70GcsYTpxPwPFPOlC4g0u_7vXmgz9PQtG1G71ab9Bv8yBmklGETRSvPkYs8Iz48fKxUmkYUOW4xV9IR1_goLTe9Y_cd7b7hs6l9mjt7ovNbyt3WcS61KkQJMUxmtD1V4ZpxBJQOarZNJmoM_vT2spuMPifci2t-EAEnDGGQLawX_ibMXcjPk-VGAVcPtk7oHMVVWsg0uDxo4UVZQuMy1uRQvG6R32aGqP7y8hlaoyZhR4vnO_62_PWyTae7DMSsZ8GileTCtZAfgfdKc0bvhxEssvqazDwynoo7pCkum8z0sYqaoeaDFeBfIXKzOryy7tL4KIKU6vdnqvSdq3VswSxi9jSHj0tK5alPype4pEtbbsgloeKAj4HRWD-olD9KMHMznGa6CYBYpoj-OKqfusyH8D4LkQcAUETuCNWshIo79lvCV7UrNDjHgGOd9XejMjPI3-lUjdzZLySk2LyWsuUMI8Fro_ovVu2NXlo=w1899-h946-no?authuser=0',
+                'https://lh3.googleusercontent.com/IXJLmE--r3ThJQns7uXcI1Zbw_ZOzUL97KWKirhmr2H47qs_cj5lyjAMC_3XCLWN0kcesjDsRJ8ndGd9QVIYymgTyI6kbt2rHzIKXAV-roGoLp4jm_7FuQUUnJsNk__h9IvNb_MTLoDfo1tlfWE5IrZRVV4d80ytI_jX8pr4Pk8Dz28fKtC1fCJaURJ0VesKoXydbKpkj8COMmTzlxhD8xwJrsQyqgPXzL0axE02vgMLkAhthH5pOLBr4e1xMcAabVluMpveCsXrbZRF9HqVRasz9_YBTw1CaaCBZQOp_UGdjlCphWMbO2V-5TTvKKlb3Iuz5NyJv9kbkeSrVKyrquFLdkKBxDXRstFjoZWx90vLh52BeuKIoe97HRg9_gh0P49w2aG5bGwA5OWbGi7hGin0B9PFkmKKqj-SMF2ZhxQ37IunTAZNRfnlaM5mLMfHoZ9BltUPJffsfaFhGfyJljR__Knji2nebzUc-b8cQBz6rexTjDcec2jScvd7kQnZHAe4qsJwviuifTslQEXZNN9GDa6SuGTEKKB9ExSwuCmFvZh6xdGpQaOfu1XMPRiRs3LNTOOMNKeM1mluBpkJ0x3qpJJvl0MngXeXDI9_EZthm8SwFdNhATqBa0Dn5BNnDhwo9ai7OKcTDiszjwPRnN1d19kajATiu6PYxATOkVEIgiB5MYkVve4izWkhLD9oQnmcAWU2r_8lYznu0mchvsU=w1895-h937-no?authuser=0',
+                'https://lh3.googleusercontent.com/B7z0Y29GDOOma2Y7lmoIsu-RRIGF7cxkSPITaIyoS-Wa_JW6hvyS0KFavsaGsvCCcE4qCcn7dq4cJXskqX27SVoydLbPJ31BXGfVAi6fVnYQPv8ymAFHoIM0M2Is_Zw2FttqWKlR429ULsChpU6oHxvLPasiAbhZ0-9T8BGwWroxpA5Bxve1a9F1B1DeP7wH0AQv_qza5ibvmVijicR-eR2jUsKseQWuNFZSJ4fgRsHJtnWhkVTYPFeCuejExq976aoK0-VzrTp7MsHFQe8_pXU3IRJCT3J0ZKb-zVZ80QAgDKHhnL53ODYgRMZzQNhouDhViDQdT7PrU9KnilN_57hpTXCI2KikY24BDYj7uGCoIteMMkFeCA2dbNJxW81PcfC352ryK3Im2rXh0Fj3Ef9XfP9xLCev3el31HcDGnTJ1t2V4nwiPLcJHkXQzcDby0ecD55KilzK2L9FuiDLhXCkxL6odU8DxpIICNraf6jMIsSZgKPfrSFiSBHpdDpp2w5tOVr9P7d25ZQSuxtyUmREzWw-S4Vdbfj3ELfSgV51bsWiqvXwA-JSzH5CC5QzZ0rbdMj2aH9oiIakd3BQ8e8mgXkHYsnbMQEGLW7IK2B4n7S6t0GMVrHFu0qxsDGxz5UCmLD9NDYKVsUFyc1Pr3aOJolVNjIavVKiIzHN_Q_U3BjbQd6nhx2gTjCwh4BFBJiF8veDU1DOzT483K04lUs=w1900-h937-no?authuser=0'
             ],
-            title: 'Project 4',
-            caption: 'This is my project description.',
-            description: 'This is my project description. More will come later on...............',
+            title: 'Campgrounds API',
+            caption: 'A public JSON API .',
+            description: 'A JSON API cretaed with Node.js and JSON-server and provides a comprehensive list of all North American camp sites.',
             links: [
                 { link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://www.google.com', icon: <GitHubIcon /> },
-                { link: 'https://www.google.com', icon: <Language /> }
+                { link: 'https://github.com/zoug86/campgrounds_api', icon: <GitHubIcon /> },
+                { link: 'https://api-campgrounds.herokuapp.com/', icon: <Language /> }
             ],
         },
         {

@@ -51,7 +51,7 @@ const Profile = () => {
                 </CustomTimeline>
                 <br />
                 <div className="btn-container">
-                    <CustomButton link={resume} text={'Download Cv'} icon={<CloudDownloadIcon />} />
+                    <CustomButton link={resume} text={'Download Resume'} icon={<CloudDownloadIcon />} />
                 </div>
             </div>
         </div>
