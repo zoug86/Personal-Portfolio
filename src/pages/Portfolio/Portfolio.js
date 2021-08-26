@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
-import { Grid, Typography, Grow, Card, Tabs, Tab, CardActionArea, CardMedia, CardContent, CardActions, Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
+import { Grid, Typography, Tabs, Tab, Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 import ImageGallery from '../../components/ImageGallery/ImageGallery';
 
+
 // styles
 import './Portfolio.css';
+import ProjectPosts from '../../components/ProjectPosts';
 
 
-const Portfolio = () => {
+const Portfolio = ({ history }) => {
 
     const [tabValue, setTabValue] = useState('All');
     const [projectDialog, setProjectDialog] = useState(false);
 
     const handleChange = (e, newTab) => {
         setTabValue(newTab);
+        //history.push('/Portfolio')
     }
     const handleClose = () => {
         setProjectDialog(false);
@@ -30,7 +33,7 @@ const Portfolio = () => {
                 </Grid>
                 {/* Tabs */}
                 <Grid item xs={12}>
-                    <Tabs className="customTabs" value={tabValue} indicatorColor="white"
+                    <Tabs className="customTabs" value={tabValue}
                         onChange={handleChange}>
                         <Tab label="All" value='All' className={tabValue === 'All' ? 'customTabs-item-active' : 'customTabs-item'} />
                         {[...new Set(resumeData.projects.map(project => project.tag))].map((tag, i) => (
@@ -41,43 +44,7 @@ const Portfolio = () => {
 
                 {/* Projects */}
                 <Grid item xs={12}>
-                    <Grid container spacing={5} className="pb-45 bottom-40">
-                        {resumeData?.projects?.map(project => (
-                            <>
-                                {tabValue === project.tag || tabValue === "All" ? (
-                                    <Grow in timeout={1500}>
-                                        <Grid item xs={12} sm={6} md={4}>
-                                            <Card key={project.title} className="custom-card" onClick={() => setProjectDialog(project)}>
-                                                <CardActionArea>
-                                                    <CardMedia
-                                                        className="custom-card-image"
-                                                        component="img"
-                                                        alt={project.title}
-                                                        height="160"
-                                                        image={project.images[0]}
-                                                        title={project.title}
-                                                    />
-                                                    <CardContent>
-                                                        <Typography variant="body1" className="custom-card-title">
-                                                            {project.title}
-                                                        </Typography>
-                                                        <Typography className="custom-card-caption" variant="caption" color="textSecondary" component="p">
-                                                            {project.caption}
-                                                        </Typography>
-                                                    </CardContent>
-                                                </CardActionArea>
-                                                <CardActions>
-
-                                                </CardActions>
-                                            </Card>
-                                        </Grid>
-                                    </Grow>
-                                ) : null}
-
-                            </>
-
-                        ))}
-                    </Grid>
+                    <ProjectPosts tabValue={tabValue} setTabValue={setTabValue} setProjectDialog={setProjectDialog} />
                 </Grid>
                 <Dialog maxWidth="md"
                     className="project-dialog" onClose={handleClose} open={projectDialog}>

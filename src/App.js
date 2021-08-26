@@ -30,18 +30,12 @@ function App() {
               <Header />
               <div className="main-content container-shadow">
                 <Switch>
-                  <Route path='/Resume'>
-                    <Resume />
-                  </Route>
-                  <Route path='/portfolio'>
-                    <Portfolio />
-                  </Route>
-                  <Route path='/Contact'>
-                    <Contact />
-                  </Route>
-                  <Route path='/'>
-                    <Home />
-                  </Route>
+                  <Route path='/Resume' component={Resume} />
+                  <Route exact path='/Portfolio/:keyword' component={Portfolio} />
+                  <Route exact path='/Portfolio/page/:pageNumber' component={Portfolio} />
+                  <Route path='/Portfolio' component={Portfolio} />
+                  <Route path='/Contact' component={Contact} />
+                  <Route path='/' component={Home} />
                 </Switch>
               </div>
             </Router>

@@ -33,7 +33,10 @@ const Resume = () => {
                                         <Typography className="timeline-company">{experience.company}</Typography>
                                         <Typography variant='body2' className="timeline-description">{experience.description}</Typography>
                                         <Typography variant='body2' className="timeline-publicaiton">
-                                            {experience.publication && <a href={experience.publication} target="_blank" rel="noreferrer">Research Publication<AttachFileIcon /></a>}
+                                            {experience.publication && (<span>IEEE Publication <a href={experience.publication} target="_blank" rel="noreferrer"><AttachFileIcon /></a></span>)}
+                                        </Typography>
+                                        <Typography variant='body2' className="timeline-publicaiton">
+                                            {experience.publication && (<span>Read <a href='https://dspace.library.uvic.ca/bitstream/handle/1828/11722/Marzougui_Houssem_MASc_2020.pdf?sequence=3&isAllowed=y' target="_blank" rel="noreferrer">here</a> </span>)}
                                         </Typography>
                                     </TimelineContent>
                                 </TimelineItem>

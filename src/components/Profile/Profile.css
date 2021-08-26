@@ -62,3 +62,10 @@
 .btn-container {
   text-align: center;
 }
+
+.btn-container-view{
+  text-decoration: none;
+  color: #787878;
+  font-weight: 500;
+  border: 1px #fff solid;
+}

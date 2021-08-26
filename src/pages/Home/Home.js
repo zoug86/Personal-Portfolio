@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <>
             {/* // About Me */}
-            <Grid container className="section pb-60 pt-45">
+            <Grid container className="section pt-45">
                 <Grid item className="section-title bottom-40">
                     <span></span>
                     <h5 className="section-title-text">About Me</h5>
@@ -20,11 +20,11 @@ const Home = () => {
                     <Typography variant="body2" className="about-me-text">{resumeData.about}</Typography>
                 </Grid>
             </Grid >
-            {/* // Services */}
-            <Grid container className="section whitebg pb-60 pt-45">
+            {/* // General Skills */}
+            <Grid container className="section whitebg pt-45">
                 <Grid item className="section-title bottom-40">
                     <span></span>
-                    <h5 className="section-title-text">My Services</h5>
+                    <h5 className="section-title-text">Soft Skills</h5>
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container spacing={3} justifyContent='space-around'>
@@ -40,11 +40,11 @@ const Home = () => {
                     </Grid>
                 </Grid>
             </Grid>
-            {/* // Skills */}
+            {/* // Technical Skills */}
             <Grid container className="section pb-60 pt-45">
                 <Grid item className="section-title bottom-40">
                     <span></span>
-                    <h5 className="section-title-text">My Skills</h5>
+                    <h5 className="section-title-text">Tech Skills</h5>
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container spacing={3} justifyContent='space-around'>

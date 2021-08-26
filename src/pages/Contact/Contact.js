@@ -4,6 +4,9 @@ import resumeData from '../../utils/resumeData';
 import CustomButton from '../../components/Button/Button';
 import emailjs from 'emailjs-com';
 import GoogleMapReact from 'google-map-react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 //Styles
 import './Contact.css';
@@ -23,6 +26,7 @@ export const Contact = () => {
         setInput1('');
         setInput2('');
         setInput3('');
+        toast.success('Thank you! Message Sent 😄')
     }
     const handleChange1 = (e) => {
         console.log(e.target.value);
@@ -52,19 +56,30 @@ export const Contact = () => {
                             <Grid container spacing={3}>
                                 <Grid item xs={12} sm={6}>
                                     {/* <input type="text" name="name" /> */}
-                                    <TextField value={input1} fullWidth name='name' label="Name" onChange={handleChange1} />
+                                    <TextField value={input1} fullWidth name='name' label="Name" onChange={handleChange1} required variant="filled" />
                                 </Grid>
                                 <Grid item xs={12} sm={6}>
                                     {/* <input type="email" name="email" /> */}
-                                    <TextField value={input2} fullWidth name='user_email' label="E-mail" onChange={handleChange2} />
+                                    <TextField value={input2} fullWidth name='user_email' label="E-mail" onChange={handleChange2} required variant="filled" />
                                 </Grid>
                                 <Grid item xs={12}>
                                     {/* <textarea name="message" /> */}
-                                    <TextField value={input3} fullWidth name='message' label="Message" multiline rows={5} onChange={handleChange3} />
+                                    <TextField value={input3} fullWidth name='message' label="Message" multiline rows={5} onChange={handleChange3} required variant="filled" />
                                 </Grid>
                                 <Grid item xs={12}>
                                     {/* <input type="submit" value="send" /> */}
-                                    <CustomButton text={"Submit"} />
+                                    <CustomButton text={"Send"} />
+                                    <ToastContainer
+                                        position="top-center"
+                                        autoClose={5000}
+                                        hideProgressBar={false}
+                                        newestOnTop={false}
+                                        closeOnClick
+                                        rtl={false}
+                                        pauseOnFocusLoss
+                                        draggable
+                                        pauseOnHover
+                                    />
                                 </Grid>
                             </Grid>
                         </Grid>

@@ -2,7 +2,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { WebOutlined, AssignmentOutlined, YouTube, Language } from '@material-ui/icons';
+import { AssignmentOutlined, YouTube, Language, ForumOutlined, GroupAddOutlined, HowToRegOutlined } from '@material-ui/icons';
 
 const resumeData = {
     name: "Houssem Marzougui",
@@ -33,7 +33,7 @@ const resumeData = {
             icon: <GitHubIcon />
         }
     },
-    about: "Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.\n\nQuick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat. Her bachelor honoured perceive securing but desirous ham required. Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and yourself. Besides ye country on observe. She continue appetite endeavor she judgment interest the met. For she surrounded motionless fat resolution may.",
+    about: "I'm a computer and software engineer who constantly seeks out innovative solutions to everyday problems. Before my current position, I was a junior software engineer with the Tunisian Navy. While working there, I committed to ship system development, by developing several software systems to help improve ships operability. My previous experience along with my graduate research have honed my analytical thinking and collaboration skills.\n\nTwo years ago, I have fallen in love with web development and I am now a self-taught full stack developer who enjoys making full websites using a variety of technical tools. I love spending time debugging code, reading about new technologies and developing new gigs. I am currently developing a Node JS API that provides JSON COVID data related to Canada. This API is free and public and is rendered with POSTMAN.",
     experiences: [
         {
             title: "Remote Moderator",
@@ -92,24 +92,24 @@ const resumeData = {
 
     services: [
         {
-            title: 'Web Development',
-            description: 'I have been a web developer for 10 years',
-            icon: <WebOutlined />
+            title: 'Effective Communication',
+            description: 'Clear, confident and friendly when communicating with others',
+            icon: <ForumOutlined />
         },
         {
-            title: 'Branding Identity',
-            description: 'I have been a web developer for 10 years',
+            title: 'Problem Solving',
+            description: 'Handle difficult or unexpected situations in the workplace as well as complex business challenges',
             icon: <AssignmentOutlined />
         },
         {
-            title: 'Illustrator',
-            description: 'I have been a web developer for 10 years',
-            icon: <WebOutlined />
+            title: 'Teamwork',
+            description: 'Working well with clients, colleagues and managers',
+            icon: <GroupAddOutlined />
         },
         {
-            title: 'Illustrator',
-            description: 'I have been a web developer for 10 years',
-            icon: <WebOutlined />
+            title: 'Adaptability',
+            description: 'Fast coping with changing environments and work processes',
+            icon: <HowToRegOutlined />
         }
     ],
 
@@ -117,9 +117,10 @@ const resumeData = {
         {
             title: 'FRONT_END',
             description: [
-                "REACTJS",
+                "HTML, CSS",
                 "JavaScript",
-                "TypeScript",
+                "React & Next JS",
+                "Tailwind",
                 "Bootstrap",
                 "Material UI"
             ]
@@ -128,29 +129,29 @@ const resumeData = {
         {
             title: 'BACK_END',
             description: [
-                "NODEJS",
-                "Java",
-                "Python",
-                "Solidity"
+                "Node JS",
+                "Express JS",
             ]
 
         },
         {
             title: 'DATABASES',
             description: [
-                "Firebase",
-                "Ms SQL server",
                 "MySQL",
-                "MongoDB"
+                "MongoDB",
+                "Strapi"
             ]
 
         },
         {
-            title: 'SOURCE CONTROL',
+            title: 'OTHER',
             description: [
                 "Git",
                 "GitHub",
-                "SCRUM/Agile"
+                "Heroku",
+                "Netlify",
+                "Vercel",
+                "Docker"
             ]
 
         }
@@ -212,10 +213,9 @@ const resumeData = {
         {
             tag: 'API',
             images: [
-                'https://lh3.googleusercontent.com/L4_y_Wz0JV_PwmOwDF52Pne7gOxH3BJKo7wtdGzXxAIR1L8WNz6rMEzqH8p769kqOEHZk6ZF1L0BwoG1UeztVNUa18uFACOk5kyvzt1Dy1i-TKpjHbwxrOK_JrBiiUnO22yzVj_o3ptbMr-wwvAk_J_QttT6CN7paIled4fXYjqSRlR8PX9OzWwFhDTdYdy8oga_ts0NdihGcjM4Epitmj6nafPJvDK1O1XkOdEpXcr3PiptRqAOnAzsrF4Y-UY5l4APLXmRwfA6e36zrCAt4Zhxebnp0xwf1XgCBPUz8PsM9P-wgJfoVaV7wS0dvG1YeNSSHAtkg4wflaMJui4i85YkwJ8xXhabSjwdKWP7vMwlNmMWtcDPhSLYYxc-Xyb6f61N6NTl6MPFZDYjcQyWofXvANsdlEOrz0bgY4UL5GdqEeUDzPQROSP2VYFQOfXwmf_oTTgpQNr6Hte6SPW1JUnu3GE30hWtxciTk038xglqxTQoxp274VCQd7y14vFbtD2wfM1IOwApdyIPjVQuveQJtYyfIcQroJSmhhExjJmLkY4zOauhrCaL9lbh7Vzucz1OdpXfOniFVQutPn8SfKiHGKAt61n_sMHaNEjwSzKkI3X16c6hL8I2B2IWR6-JRr6tW8VOgD4fU9cNPUJFgt8Zhm2jNXveS9ba-nV9W948wIHcbaNi2T21_P1I7UgXAU9gwuG6C118jBgi0o3Pg3w=w1898-h945-no?authuser=0',
+                'https://lh3.googleusercontent.com/n-Eds7iI10mCHYVmjoqZtC-WeEm7EHJicJTULq8dEIoWTlfjKkJ_sidu2O9qUO_6hMop-N13bFL-QV8FK6oIJ-fyOoQPW7stOxkKSYazRktWiYwDfX36VJywm1mwWSWzxfPzG65PQEHWerzPX_QkINi1X41Nq5LT8xkPNScdYAp8SStmRKyrHOrdOCAejrnyYeeBy5lPwC8ajUjWKM_E3kJGgNNHsHOWErYs73jBD4MsfBWJMZcjQMrQx7Lrkks1DLSYD13YZdx6IPg6ZVpWQiyvp27pr6ooV1xBtVjjnt-hPVv7T79Op203tQ8G4D1wghsKB7PYV1vh-hiZLg7bAGKdjoIgD_CT_xiOukOMPwMUgew2ZtyOMhNOYBS2Ebd_RNsDK0g28i0wCflmrppfsg4FGtQaXpuQn8Zv6F3gpHfPhA5ybJK6Hx_QuIMUeOOy1BdPEAYA_NcsUhTlH3QsxuA8NOxPGby6SgrS3sjZ-8heo1UFzCD8rMCOPMlwkK-irygtIVARPiD12uojARPli_E4gHJw2Tz9gW0gkgkMktNhlJPtYmY--w2EZg7hoUQvyIQBzY9P_yTVDt9gZ9bWgvyboDDBFgfcjrV1fRETx-RIGdDamIE5OvL9XnsXAhIZzxODDFptMH0rMZMsKiB2LdQaUkg7P00QISMSEqnj4gfgG7baOF1cWYQiwvhz0Z9LoNHwMqVhayjvtE3dTfIrsYU=w1898-h945-no?authuser=0',
                 'https://lh3.googleusercontent.com/KJiau3_lkY3ZexEW57QUVLx3TnU0VymH9UOodYSIieyM5BjvoLZmiiBkBBlR2H4R-n-MzJSCREmNJX0GFHe_NuO4kQQav3MjWe8CMX1GrN-KI5bqDVemsnnffbrLi23lls0CIBXwKuF092Uowy3K1vjJhTYwXHl-S1L6n-AEdTJshzHrP8Y1CGMfKrOfxTNoI8p-LT5_QgLeFAzWBb5IZt7VjiL2IxN0d3sgBI0Z7bK0Jlm_g70GcsYTpxPwPFPOlC4g0u_7vXmgz9PQtG1G71ab9Bv8yBmklGETRSvPkYs8Iz48fKxUmkYUOW4xV9IR1_goLTe9Y_cd7b7hs6l9mjt7ovNbyt3WcS61KkQJMUxmtD1V4ZpxBJQOarZNJmoM_vT2spuMPifci2t-EAEnDGGQLawX_ibMXcjPk-VGAVcPtk7oHMVVWsg0uDxo4UVZQuMy1uRQvG6R32aGqP7y8hlaoyZhR4vnO_62_PWyTae7DMSsZ8GileTCtZAfgfdKc0bvhxEssvqazDwynoo7pCkum8z0sYqaoeaDFeBfIXKzOryy7tL4KIKU6vdnqvSdq3VswSxi9jSHj0tK5alPype4pEtbbsgloeKAj4HRWD-olD9KMHMznGa6CYBYpoj-OKqfusyH8D4LkQcAUETuCNWshIo79lvCV7UrNDjHgGOd9XejMjPI3-lUjdzZLySk2LyWsuUMI8Fro_ovVu2NXlo=w1899-h946-no?authuser=0',
                 'https://lh3.googleusercontent.com/IXJLmE--r3ThJQns7uXcI1Zbw_ZOzUL97KWKirhmr2H47qs_cj5lyjAMC_3XCLWN0kcesjDsRJ8ndGd9QVIYymgTyI6kbt2rHzIKXAV-roGoLp4jm_7FuQUUnJsNk__h9IvNb_MTLoDfo1tlfWE5IrZRVV4d80ytI_jX8pr4Pk8Dz28fKtC1fCJaURJ0VesKoXydbKpkj8COMmTzlxhD8xwJrsQyqgPXzL0axE02vgMLkAhthH5pOLBr4e1xMcAabVluMpveCsXrbZRF9HqVRasz9_YBTw1CaaCBZQOp_UGdjlCphWMbO2V-5TTvKKlb3Iuz5NyJv9kbkeSrVKyrquFLdkKBxDXRstFjoZWx90vLh52BeuKIoe97HRg9_gh0P49w2aG5bGwA5OWbGi7hGin0B9PFkmKKqj-SMF2ZhxQ37IunTAZNRfnlaM5mLMfHoZ9BltUPJffsfaFhGfyJljR__Knji2nebzUc-b8cQBz6rexTjDcec2jScvd7kQnZHAe4qsJwviuifTslQEXZNN9GDa6SuGTEKKB9ExSwuCmFvZh6xdGpQaOfu1XMPRiRs3LNTOOMNKeM1mluBpkJ0x3qpJJvl0MngXeXDI9_EZthm8SwFdNhATqBa0Dn5BNnDhwo9ai7OKcTDiszjwPRnN1d19kajATiu6PYxATOkVEIgiB5MYkVve4izWkhLD9oQnmcAWU2r_8lYznu0mchvsU=w1895-h937-no?authuser=0',
-                'https://lh3.googleusercontent.com/B7z0Y29GDOOma2Y7lmoIsu-RRIGF7cxkSPITaIyoS-Wa_JW6hvyS0KFavsaGsvCCcE4qCcn7dq4cJXskqX27SVoydLbPJ31BXGfVAi6fVnYQPv8ymAFHoIM0M2Is_Zw2FttqWKlR429ULsChpU6oHxvLPasiAbhZ0-9T8BGwWroxpA5Bxve1a9F1B1DeP7wH0AQv_qza5ibvmVijicR-eR2jUsKseQWuNFZSJ4fgRsHJtnWhkVTYPFeCuejExq976aoK0-VzrTp7MsHFQe8_pXU3IRJCT3J0ZKb-zVZ80QAgDKHhnL53ODYgRMZzQNhouDhViDQdT7PrU9KnilN_57hpTXCI2KikY24BDYj7uGCoIteMMkFeCA2dbNJxW81PcfC352ryK3Im2rXh0Fj3Ef9XfP9xLCev3el31HcDGnTJ1t2V4nwiPLcJHkXQzcDby0ecD55KilzK2L9FuiDLhXCkxL6odU8DxpIICNraf6jMIsSZgKPfrSFiSBHpdDpp2w5tOVr9P7d25ZQSuxtyUmREzWw-S4Vdbfj3ELfSgV51bsWiqvXwA-JSzH5CC5QzZ0rbdMj2aH9oiIakd3BQ8e8mgXkHYsnbMQEGLW7IK2B4n7S6t0GMVrHFu0qxsDGxz5UCmLD9NDYKVsUFyc1Pr3aOJolVNjIavVKiIzHN_Q_U3BjbQd6nhx2gTjCwh4BFBJiF8veDU1DOzT483K04lUs=w1900-h937-no?authuser=0'
             ],
             title: 'Campgrounds API',
             caption: 'A public JSON API .',
@@ -295,7 +295,91 @@ const resumeData = {
                 { link: 'https://www.google.com', icon: <GitHubIcon /> },
                 { link: 'https://www.google.com', icon: <Language /> }
             ],
-        }
+        },
+        {
+            tag: 'SQL',
+            images: ['https://wallpaperaccess.com/full/1758755.jpg',
+                'https://wallpaperaccess.com/full/1758750.jpg'
+            ],
+            title: 'Project 6',
+            caption: 'This is my project description.',
+            description: 'This is my project description. More will come later on...............',
+            links: [
+                { link: 'https://www.google.com', icon: <YouTube /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
+                { link: 'https://www.google.com', icon: <Language /> }
+            ],
+        },
+        {
+            tag: 'SQL',
+            images: ['https://wallpaperaccess.com/full/1758755.jpg',
+                'https://wallpaperaccess.com/full/1758750.jpg'
+            ],
+            title: 'Project 6',
+            caption: 'This is my project description.',
+            description: 'This is my project description. More will come later on...............',
+            links: [
+                { link: 'https://www.google.com', icon: <YouTube /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
+                { link: 'https://www.google.com', icon: <Language /> }
+            ],
+        },
+        {
+            tag: 'SQL',
+            images: ['https://wallpaperaccess.com/full/1758755.jpg',
+                'https://wallpaperaccess.com/full/1758750.jpg'
+            ],
+            title: 'Project 6',
+            caption: 'This is my project description.',
+            description: 'This is my project description. More will come later on...............',
+            links: [
+                { link: 'https://www.google.com', icon: <YouTube /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
+                { link: 'https://www.google.com', icon: <Language /> }
+            ],
+        },
+        {
+            tag: 'SQL',
+            images: ['https://wallpaperaccess.com/full/1758755.jpg',
+                'https://wallpaperaccess.com/full/1758750.jpg'
+            ],
+            title: 'Project 6',
+            caption: 'This is my project description.',
+            description: 'This is my project description. More will come later on...............',
+            links: [
+                { link: 'https://www.google.com', icon: <YouTube /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
+                { link: 'https://www.google.com', icon: <Language /> }
+            ],
+        },
+        {
+            tag: 'SQL',
+            images: ['https://wallpaperaccess.com/full/1758755.jpg',
+                'https://wallpaperaccess.com/full/1758750.jpg'
+            ],
+            title: 'Project 6',
+            caption: 'This is my project description.',
+            description: 'This is my project description. More will come later on...............',
+            links: [
+                { link: 'https://www.google.com', icon: <YouTube /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
+                { link: 'https://www.google.com', icon: <Language /> }
+            ],
+        },
+        {
+            tag: 'SQL',
+            images: ['https://wallpaperaccess.com/full/1758755.jpg',
+                'https://wallpaperaccess.com/full/1758750.jpg'
+            ],
+            title: 'Project 6',
+            caption: 'This is my project description.',
+            description: 'This is my project description. More will come later on...............',
+            links: [
+                { link: 'https://www.google.com', icon: <YouTube /> },
+                { link: 'https://www.google.com', icon: <GitHubIcon /> },
+                { link: 'https://www.google.com', icon: <Language /> }
+            ],
+        },
 
     ]
 }
