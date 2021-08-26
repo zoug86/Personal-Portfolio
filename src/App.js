@@ -32,7 +32,6 @@ function App() {
                 <Switch>
                   <Route path='/Resume' component={Resume} />
                   <Route exact path='/Portfolio/:keyword' component={Portfolio} />
-                  <Route exact path='/Portfolio/page/:pageNumber' component={Portfolio} />
                   <Route path='/Portfolio' component={Portfolio} />
                   <Route path='/Contact' component={Contact} />
                   <Route path='/' component={Home} />

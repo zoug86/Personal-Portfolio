@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { Grid, Typography, Tabs, Tab, Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 import ImageGallery from '../../components/ImageGallery/ImageGallery';
+import ProjectPosts from '../../components/ProjectPosts/ProjectPosts';
 
 
 // styles
 import './Portfolio.css';
-import ProjectPosts from '../../components/ProjectPosts';
 
 
 const Portfolio = ({ history }) => {
@@ -16,7 +16,6 @@ const Portfolio = ({ history }) => {
 
     const handleChange = (e, newTab) => {
         setTabValue(newTab);
-        //history.push('/Portfolio')
     }
     const handleClose = () => {
         setProjectDialog(false);

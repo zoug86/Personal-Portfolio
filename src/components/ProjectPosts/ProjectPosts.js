@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Grid, Typography, Grow, Card, CardActionArea, CardMedia, CardContent, CardActions } from '@material-ui/core';
-import resumeData from '../utils/resumeData';
-import Pagination from './Pagination';
+import resumeData from '../../utils/resumeData';
+import Pagination from '../Pagination/Pagination';
 
 const ProjectPosts = ({ tabValue, setProjectDialog }) => {
 
@@ -10,7 +10,7 @@ const ProjectPosts = ({ tabValue, setProjectDialog }) => {
     let currentProjects = [];
     const indexOfLastProject = currentPage * projectsPerPage;
     const indexOfFirstProject = indexOfLastProject - projectsPerPage;
-    currentProjects = resumeData?.projects?.slice(indexOfFirstProject, indexOfLastProject);
+    currentProjects = (tabValue === 'All' ? resumeData?.projects?.slice(indexOfFirstProject, indexOfLastProject) : resumeData?.projects);
 
     const paginate = pageNumber => {
         setCurrentPage(pageNumber);
@@ -55,7 +55,8 @@ const ProjectPosts = ({ tabValue, setProjectDialog }) => {
                     </>
                 ))}
             </Grid>
-            <Pagination projectsPerPage={projectsPerPage} totalProjects={resumeData?.projects?.length} paginate={paginate} />
+            {tabValue === 'All' ? (
+                <Pagination projectsPerPage={projectsPerPage} totalProjects={resumeData?.projects?.length} paginate={paginate} />) : null}
         </>
     )
 }

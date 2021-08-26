@@ -7,6 +7,7 @@ import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import CustomButton from '../Button/Button';
+import VisibilityIcon from '@material-ui/icons/Visibility';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import resume from './Houssem_Marzougui_2021_Resume.pdf';
 
@@ -52,7 +53,7 @@ const Profile = () => {
                 <br />
                 <div className="btn-container">
                     <CustomButton link={resume} text={'Resume'} icon={<CloudDownloadIcon />} />
-                    <p><a href={resume} target='_blank' rel="noreferrer" className='btn-container-view'>-View-</a></p>
+                    <p>Preview<a href={resume} target='_blank' rel="noreferrer" className='btn-container-view'><VisibilityIcon /></a></p>
                 </div>
             </div>
         </div>
