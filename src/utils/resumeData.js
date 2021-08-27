@@ -60,14 +60,14 @@ const resumeData = {
         },
         {
             title: "Software Engineer",
-            logo: "http://hayouni.com/images/tnmilitary.jpg",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Armoiries_Forces_arm%C3%A9es_tunisiennes.svg/1200px-Armoiries_Forces_arm%C3%A9es_tunisiennes.svg.png",
             company: "Tunisian Naval Electronics Division",
             date: "2015 - 2017",
             description: "•	Developed a Tracking Software using TLD algorithm to enhance weapon systems by adding the capacity of auto- aiming (.Net/C#, DSP). \n•	Designed a smart ship engine surveillance system where Temperature and pressure are collected from the engine sensors using an Arduino board and communicated via TCP / IP connection to a Web App that ensures treating and displaying the data. (SPA, C++, Node - Red, JavaScript, SQL).",
         },
         {
             title: "Communications Officer",
-            logo: "http://hayouni.com/images/tnmilitary.jpg",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Armoiries_Forces_arm%C3%A9es_tunisiennes.svg/1200px-Armoiries_Forces_arm%C3%A9es_tunisiennes.svg.png",
             company: "Tunisian Navy",
             date: "2011 - 2015",
             description: "Developed and supervised maintenance planning for all communication equipments onboard naval units to ensure full operational status of different satellite and terrestrial communication systems.."
@@ -83,7 +83,7 @@ const resumeData = {
         },
         {
             title: "United States Naval Academy",
-            logo: "http://hayouni.com/images/usna.jpg",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/d/dd/USNA_Gold_Seal.png",
             date: "2007 - 2011",
             degree: "BSc in Electrical Engineering",
             description: "GPA: 3.55/4 - Graduated with merit - Tunisian Military Scholarship Recipient."

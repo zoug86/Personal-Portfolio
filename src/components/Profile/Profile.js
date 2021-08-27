@@ -53,7 +53,7 @@ const Profile = () => {
                 <br />
                 <div className="btn-container">
                     <CustomButton link={resume} text={'Resume'} icon={<CloudDownloadIcon />} />
-                    <p>Preview<a href={resume} target='_blank' rel="noreferrer" className='btn-container-view'><VisibilityIcon /></a></p>
+                    <p style={{ color: '#787878' }}>Preview<a href={resume} target='_blank' rel="noreferrer" className='btn-container-view'><VisibilityIcon style={{ color: '#ffc500' }} /></a></p>
                 </div>
             </div>
         </div>
