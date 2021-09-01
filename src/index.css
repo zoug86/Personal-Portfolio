@@ -13,11 +13,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafafa;
   overflow-x: hidden;
-  background: url("./assets/images/bg.jpg");
+  /* background: url("./assets/images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; */
 }
 
 code {

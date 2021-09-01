@@ -117,7 +117,7 @@ const resumeData = {
         {
             title: 'FRONT_END',
             description: [
-                "HTML, CSS",
+                "HTML & CSS",
                 "JavaScript",
                 "React & Next JS",
                 "Tailwind",
@@ -146,12 +146,13 @@ const resumeData = {
         {
             title: 'OTHER',
             description: [
-                "Git",
-                "GitHub",
+                "Git & Github",
                 "Heroku",
                 "Netlify",
                 "Vercel",
-                "Docker"
+                "Digital Ocean",
+                "Docker",
+                "Postman"
             ]
 
         }
