@@ -410,8 +410,8 @@ const resumeData = {
             description: 'This is my project description. More will come later on...............',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://www.google.com', icon: <GitHubIcon /> },
-                { link: 'https://www.google.com', icon: <Language /> }
+                { link: 'https://github.com/zoug86/Personal-Portfolio', icon: <GitHubIcon /> },
+                { link: 'https://personal-portfolio-zoug86.vercel.app/', icon: <Language /> }
             ],
         },
 
