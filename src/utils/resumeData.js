@@ -189,7 +189,7 @@ const resumeData = {
             ],
             title: 'DIGTHRIFTING',
             caption: 'E-commerce MERN App.',
-            description: 'This is a full website that uses authentication, authorization, API calls, security patches, MongoDB Atlas storage, and deployed on herokuapp.com.',
+            //  description: 'This is a full website that uses authentication, authorization, API calls, security patches, MongoDB Atlas storage, and deployed on herokuapp.com.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/DigiThrifting', icon: <GitHubIcon /> },
@@ -212,7 +212,7 @@ const resumeData = {
             ],
             title: 'DJ-Events',
             caption: 'A FullStack App.',
-            description: 'A restaurant responsive website built with HTML, CSS, and Javascript.',
+            //  description: 'A restaurant responsive website built with HTML, CSS, and Javascript.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/DJ-EVENTS', icon: <GitHubIcon /> },
@@ -230,7 +230,7 @@ const resumeData = {
             ],
             title: 'CodeFever Blog',
             caption: 'A Next.js Blog.',
-            description: 'A creative and responsive website design done in HTML, CSS, and JavaScript.',
+            //    description: 'A creative and responsive website design done in HTML, CSS, and JavaScript.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/CodeFever-Blog', icon: <GitHubIcon /> },
@@ -248,7 +248,7 @@ const resumeData = {
             ],
             title: 'GameDB',
             caption: 'A React Games App.',
-            description: 'A JSON API cretaed with Node.js and JSON-server and provides a comprehensive list of all North American camp sites.',
+            //    description: 'A JSON API cretaed with Node.js and JSON-server and provides a comprehensive list of all North American camp sites.',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/gamedb', icon: <GitHubIcon /> },
@@ -262,7 +262,7 @@ const resumeData = {
             ],
             title: 'Music-Player.',
             caption: 'A React Music App.',
-            description: 'This is my project description. More will come later on...............',
+            //   description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/react-music-player', icon: <GitHubIcon /> },
@@ -279,7 +279,7 @@ const resumeData = {
             ],
             title: 'Weather-app',
             caption: 'A Next.js Weather App.',
-            description: 'This is my project description. More will come later on...............',
+            //  description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/Weather-App-NextJS', icon: <GitHubIcon /> },
@@ -296,7 +296,7 @@ const resumeData = {
             ],
             title: 'Campgrounds-API',
             caption: 'json-server API App.',
-            description: 'This is my project description. More will come later on...............',
+            // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/campgrounds_api', icon: <GitHubIcon /> },
@@ -317,7 +317,7 @@ const resumeData = {
             ],
             title: 'Chat-with-react',
             caption: 'React and Node Chat App.',
-            description: 'This is my project description. More will come later on...............',
+            // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/ChatApp-React', icon: <GitHubIcon /> },
@@ -332,7 +332,7 @@ const resumeData = {
             ],
             title: 'Mapty',
             caption: 'A Vanilla JS  Workout App.',
-            description: 'This is my project description. More will come later on...............',
+            //   description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/mapty-app', icon: <GitHubIcon /> },
@@ -353,7 +353,7 @@ const resumeData = {
             ],
             title: 'MCTA',
             caption: 'A Business Webpage.',
-            description: 'This is my project description. More will come later on...............',
+            // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/MC-Tutoring-Academy', icon: <GitHubIcon /> },
@@ -370,7 +370,7 @@ const resumeData = {
             ],
             title: 'Restaurant-app',
             caption: 'Frontend Restaurant Webpage.',
-            description: 'This is my project description. More will come later on...............',
+            //description: 'This is my project description. More will come later on...............',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/restaurant-website', icon: <GitHubIcon /> },
@@ -387,7 +387,7 @@ const resumeData = {
             ],
             title: 'Creative-Design',
             caption: 'Frontend Business Webpage.',
-            description: 'This is my project description. More will come later on...............',
+            // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/WebsiteCreativeDesign', icon: <GitHubIcon /> },
@@ -407,7 +407,7 @@ const resumeData = {
             ],
             title: 'Portfolio',
             caption: 'React and Material-UI Portfolio.',
-            description: 'This is my project description. More will come later on...............',
+            //description: 'This is my project description. More will come later on...............',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/Personal-Portfolio', icon: <GitHubIcon /> },
