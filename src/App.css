@@ -2,6 +2,16 @@
   --main-color: #ffc500;
 }
 
+::-webkit-scrollbar{
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #f3ad3d;
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+
 /* Margins and paddings */
 .top-60 {
   margin-top: 60px !important;

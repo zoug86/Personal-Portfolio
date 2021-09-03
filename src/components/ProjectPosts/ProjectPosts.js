@@ -21,11 +21,11 @@ const ProjectPosts = ({ tabValue, setProjectDialog }) => {
     return (
         <>
             <Grid container spacing={5} className="pb-45 bottom-40">
-                {currentProjects.map(project => (
+                {currentProjects.map((project, i) => (
                     <>
                         {tabValue === project.tag || tabValue === "All" ? (
                             <Grow in timeout={1500}>
-                                <Grid key={project.title} item xs={12} sm={6} md={4}>
+                                <Grid key={i} item xs={12} sm={6} md={4}>
                                     <Card className="custom-card" onClick={() => setProjectDialog(project)}>
                                         <CardActionArea>
                                             <CardMedia
