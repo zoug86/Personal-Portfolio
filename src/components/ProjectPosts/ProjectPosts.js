@@ -33,7 +33,7 @@ const ProjectPosts = ({ tabValue, setProjectDialog }) => {
                                                 component="img"
                                                 alt={project.title}
                                                 height="160"
-                                                image={project?.images[0]}
+                                                image={project.images[0]}
                                                 title={project.title}
                                             />
                                             <CardContent>
