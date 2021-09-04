@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Grid, Typography, TextField } from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../../components/Button/Button';
 import emailjs from 'emailjs-com';
 import GoogleMapReact from 'google-map-react';
 import { ToastContainer, toast } from 'react-toastify';
+import { ToggleContext } from '../../context/ToggleContext';
+
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -41,14 +43,18 @@ export const Contact = () => {
         setInput3(e.target.value);
     }
 
+    const { toggle } = useContext(ToggleContext);
+    const modeBg = !toggle ? { background: '#1d1d01' } : { background: 'white' };
+    const modeColor = !toggle ? { color: 'white' } : { color: 'black' };
+
     return (
-        <div style={{ padding: 5 }}>
+        <div className="contact-container" style={modeBg}>
             <Grid container spacing={6} className="section pb-45 pt-45">
                 <Grid className="left-side" item xs={12} lg={7}>
                     <Grid container>
                         <Grid item className="section-title bottom-40">
                             <span></span>
-                            <h5 className="section-title-text">Contact Form</h5>
+                            <h5 className="section-title-text" style={modeColor}>Contact Form</h5>
                         </Grid>
                     </Grid>
                     <form className="form" onSubmit={handleFormSubmit}>
@@ -89,28 +95,28 @@ export const Contact = () => {
                     <Grid container>
                         <Grid item className="section-title bottom-40">
                             <span></span>
-                            <h5 className="section-title-text">Contact Information</h5>
+                            <h5 className="section-title-text" style={modeColor}>Contact Information</h5>
                         </Grid>
                         <Grid item xs={12}>
                             <Grid container spacing={2}>
                                 <Grid item xs={12}>
                                     <Typography className="contactInfo-item">
-                                        <span>Address: </span>{resumeData.address}
+                                        <span style={modeColor}>Address: </span>{resumeData.address}
                                     </Typography>
                                 </Grid>
                                 <Grid item xs={12}>
                                     <Typography className="contactInfo-item">
-                                        <span>Phone: </span>{resumeData.phone}
+                                        <span style={modeColor}>Phone: </span>{resumeData.phone}
                                     </Typography>
                                 </Grid>
                                 <Grid item xs={12}>
                                     <Typography className="contactInfo-item">
-                                        <span>E-mail: </span>{resumeData.email}
+                                        <span style={modeColor}>E-mail: </span>{resumeData.email}
                                     </Typography>
                                 </Grid>
                                 <Grid item xs={12}>
                                     <Typography className="contactInfo-item">
-                                        <span>Skype: </span>{resumeData.skype}
+                                        <span style={modeColor}>Skype: </span>{resumeData.skype}
                                     </Typography>
                                 </Grid>
                             </Grid>
@@ -120,7 +126,9 @@ export const Contact = () => {
                         <Grid container className="contactInfo-socialsContainer">
                             {Object.keys(resumeData.socials).map((key, i) => (
                                 <Grid key={i} item className="contactInfo-social">
-                                    <a href={resumeData.socials[key].link} target="_blank" rel="noreferrer">{resumeData.socials[key].icon}</a>
+                                    <a href={resumeData.socials[key].link} target="_blank" rel="noreferrer">
+                                        <span style={modeColor}>{resumeData.socials[key].icon}</span>
+                                    </a>
                                 </Grid >
                             ))}
                         </Grid >
@@ -132,7 +140,7 @@ export const Contact = () => {
                 <Grid container>
                     <Grid item className="section-title bottom-40">
                         <span></span>
-                        <h5 className="section-title-text">Contact Map</h5>
+                        <h5 className="section-title-text" style={modeColor}>Contact Map</h5>
                     </Grid>
                 </Grid>
                 <Grid container className="bottom-40">

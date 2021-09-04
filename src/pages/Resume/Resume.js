@@ -1,21 +1,27 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import CustomTimeline, { CustomTimelineSeperator } from '../../components/Timeline/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import { School, Work } from '@material-ui/icons';
 import resumeData from '../../utils/resumeData';
+import { ToggleContext } from '../../context/ToggleContext';
+
 import AttachFileIcon from '@material-ui/icons/AttachFile';
 
 // styles
 import './Resume.css';
 
 const Resume = () => {
+    const { toggle } = useContext(ToggleContext);
+    const modeBg = !toggle ? { background: '#1d1d01' } : { background: 'white' };
+    const modeColor = !toggle ? { color: 'white' } : { color: 'black' };
+
     return (
-        <Grid container className="section pb-60 pt-45">
+        <Grid container className="section pb-60 pt-45" style={modeBg}>
             <Grid item className="section-title bottom-40">
                 <span></span>
-                <h5 className="section-title-text">Resume</h5>
+                <h5 className="section-title-text" style={modeColor}>Resume</h5>
             </Grid>
             <Grid item xs={12}>
                 <Grid container className="resume-timeline">
@@ -27,15 +33,16 @@ const Resume = () => {
                                 <TimelineItem key={i}>
                                     <CustomTimelineSeperator />
                                     <TimelineContent className="timeline-content">
-                                        <Typography className="timeline-title">
-                                            <img className="experience-logo" src={experience.logo} width="50px" alt="logo" />{experience.title}</Typography>
+                                        <Typography className="timeline-title" style={modeColor}>
+                                            <img className="experience-logo" src={experience.logo} width="50px" alt="logo" />{experience.title}
+                                        </Typography>
                                         <Typography variant='caption' className="timeline-date">{experience.date}</Typography>
-                                        <Typography className="timeline-company">{experience.company}</Typography>
+                                        <Typography className="timeline-company" style={modeColor}>{experience.company}</Typography>
                                         <Typography variant='body2' className="timeline-description">{experience.description}</Typography>
-                                        <Typography variant='body2' className="timeline-publicaiton">
+                                        <Typography variant='body2' className="timeline-publicaiton" style={modeColor}>
                                             {experience.publication && (<span>IEEE Publication <a href={experience.publication} target="_blank" rel="noreferrer"><AttachFileIcon /></a></span>)}
                                         </Typography>
-                                        <Typography variant='body2' className="timeline-publicaiton">
+                                        <Typography variant='body2' className="timeline-publicaiton" style={modeColor}>
                                             {experience.publication && (<span>Read <a href='https://dspace.library.uvic.ca/bitstream/handle/1828/11722/Marzougui_Houssem_MASc_2020.pdf?sequence=3&isAllowed=y' target="_blank" rel="noreferrer">here</a> </span>)}
                                         </Typography>
                                     </TimelineContent>
@@ -50,8 +57,9 @@ const Resume = () => {
                                 <TimelineItem key={i}>
                                     <CustomTimelineSeperator />
                                     <TimelineContent className="timeline-content">
-                                        <Typography className="timeline-title">
-                                            <img className="education-logo" src={education.logo} width="50px" alt="logo" />{education.title}</Typography>
+                                        <Typography className="timeline-title" style={modeColor}>
+                                            <img className="education-logo" src={education.logo} width="50px" alt="logo" />{education.title}
+                                        </Typography>
                                         <Typography variant='caption' className="timeline-date">{education.date}</Typography>
                                         <Typography className="timeline-degree">{education.degree}</Typography>
                                         <Typography variant='body2' className="timeline-description">{education.description}</Typography>

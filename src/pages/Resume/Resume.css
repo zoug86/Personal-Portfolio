@@ -1,3 +1,7 @@
+.section{
+  border-radius: 5px;
+}
+
 .resume-timeline .timeline-content .timeline-title{
     font-size: 16px;
     font-weight: 600;

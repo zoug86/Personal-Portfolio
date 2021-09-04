@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Typography } from '@material-ui/core';
 
 import Timeline from '@material-ui/lab/Timeline';
@@ -7,12 +7,18 @@ import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
+import { ToggleContext } from '../../context/ToggleContext';
+
 //import WorkIcon from '@material-ui/icons/Work';
 
 //styles
 import './Timeline.css';
 
 const CustomTimeline = ({ title, children, icon }) => {
+  const { toggle } = useContext(ToggleContext);
+  //const modeBg = !toggle ? { background: '#1d1d01' } : { background: 'white' };
+  const modeColor = !toggle ? { color: 'white' } : { color: 'black' };
+
   return (
     <Timeline className="timeline">
       {/* Item Header */}
@@ -22,7 +28,7 @@ const CustomTimeline = ({ title, children, icon }) => {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
-          <Typography variant="h6" className="timeline-header">
+          <Typography variant="h6" className="timeline-header" style={modeColor}>
             {title}
           </Typography>
         </TimelineContent>

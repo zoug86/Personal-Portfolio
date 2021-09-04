@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Grid, Typography, Tabs, Tab, Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 import ImageGallery from '../../components/ImageGallery/ImageGallery';
 import ProjectPosts from '../../components/ProjectPosts/ProjectPosts';
+import { ToggleContext } from '../../context/ToggleContext';
 
 
 // styles
@@ -21,13 +22,17 @@ const Portfolio = ({ history }) => {
         setProjectDialog(false);
     }
 
+    const { toggle } = useContext(ToggleContext);
+    const modeBg = !toggle ? { background: '#1d1d01' } : { background: 'white' };
+    const modeColor = !toggle ? { color: 'white' } : { color: 'black' };
+
     return (
-        <div style={{ padding: 5 }}>
-            <Grid container spacing={2} className="section pb-45 pt-45">
+        <div className="portfolio-container pb-45" style={modeBg}>
+            <Grid container spacing={2} className="section pt-45">
                 <Grid container>
                     <Grid item className="section-title bottom-40">
                         <span></span>
-                        <h5 className="section-title-text">Portfolio</h5>
+                        <h5 className="section-title-text" style={modeColor}>Portfolio</h5>
                     </Grid>
                 </Grid>
                 {/* Tabs */}
@@ -36,7 +41,7 @@ const Portfolio = ({ history }) => {
                         onChange={handleChange}>
                         <Tab label="All" value='All' className={tabValue === 'All' ? 'customTabs-item-active' : 'customTabs-item'} />
                         {[...new Set(resumeData.projects.map(project => project.tag))].map((tag, i) => (
-                            <Tab key={i} label={tag} value={tag} className={tabValue === tag ? "customTabs-item-active" : "customTabs-item"} />
+                            <Tab key={i} label={tag} value={tag} className={tabValue === tag ? "customTabs-item-active" : "customTabs-item"} style={modeColor} />
                         ))}
                     </Tabs>
                 </Grid>
