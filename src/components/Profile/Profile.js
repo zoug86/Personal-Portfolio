@@ -16,13 +16,17 @@ import resume from './Houssem_Marzougui_2021_Resume.pdf';
 import './Profile.css';
 
 const CustomTimelineItem = ({ title, text, link }) => {
+    const { toggle } = useContext(ToggleContext);
+
+    const modeBg = !toggle ? { background: '#1d1d01' } : { background: 'white' };
+    const modeColor = !toggle ? { color: 'white' } : { color: 'black' };
 
     return (
         <TimelineItem>
             <CustomTimelineSeperator />
             <TimelineContent className="timeline-content">
-                {link ? <Typography className="timelineItem-text"><span>{title}:</span> <a href={link} target='_blank' rel="noreferrer">{text}</a>
-                </Typography> : <Typography className="timelineItem-text"><span>{title}:</span> {text}</Typography>}
+                {link ? <Typography className="timelineItem-text"><span style={modeColor}>{title}:</span> <a href={link} target='_blank' rel="noreferrer">{text}</a>
+                </Typography> : <Typography className="timelineItem-text"><span style={modeColor}>{title}:</span> {text}</Typography>}
             </TimelineContent>
         </TimelineItem>
     )

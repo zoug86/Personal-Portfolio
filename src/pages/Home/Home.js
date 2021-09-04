@@ -22,7 +22,7 @@ const Home = () => {
                     <h5 className="section-title-text" style={modeColor}>About Me</h5>
                 </Grid>
                 <Grid item xs={12}>
-                    <Typography variant="body2" className="about-me-text">{resumeData.about}</Typography>
+                    <Typography variant="body2" className="about-me-text" style={modeColor}>{resumeData.about}</Typography>
                 </Grid>
             </Grid >
             {/* // General Skills */}
