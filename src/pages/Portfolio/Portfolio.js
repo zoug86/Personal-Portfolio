@@ -52,11 +52,11 @@ const Portfolio = ({ history }) => {
                 </Grid>
                 <Dialog maxWidth="md"
                     className="project-dialog" onClose={handleClose} open={projectDialog}>
-                    <DialogTitle onClose={handleClose}>
-                        {projectDialog.title}
+                    <DialogTitle onClose={handleClose} style={modeBg}>
+                        <span style={modeColor}>{projectDialog.title}</span>
                     </DialogTitle>
 
-                    <DialogContent dividers>
+                    <DialogContent dividers style={modeBg}>
                         {projectDialog.images && (
                             <ImageGallery images={projectDialog.images} />
                         )}
@@ -64,7 +64,7 @@ const Portfolio = ({ history }) => {
                             {projectDialog.description}
                         </Typography>
                     </DialogContent>
-                    <DialogActions className="project-dialog-actions">
+                    <DialogActions className="project-dialog-actions" style={modeBg}>
                         {projectDialog?.links?.map((link, i) => (
                             <a key={i} href={link.link} target="_blank" rel="noreferrer" className="project-dialog-icon">
                                 {link.icon}
