@@ -28,7 +28,7 @@ const Portfolio = ({ history }) => {
 
     return (
         <div className="portfolio-container pb-45" style={modeBg}>
-            <Grid container spacing={2} className="section pt-45">
+            <Grid container spacing={2} className="section pt-45" style={modeBg}>
                 <Grid container>
                     <Grid item className="section-title bottom-40">
                         <span></span>
@@ -39,7 +39,7 @@ const Portfolio = ({ history }) => {
                 <Grid item xs={12}>
                     <Tabs className="customTabs" value={tabValue}
                         onChange={handleChange}>
-                        <Tab label="All" value='All' className={tabValue === 'All' ? 'customTabs-item-active' : 'customTabs-item'} />
+                        <Tab label="All" value='All' className={tabValue === 'All' ? 'customTabs-item-active' : 'customTabs-item'} style={modeColor} />
                         {[...new Set(resumeData.projects.map(project => project.tag))].map((tag, i) => (
                             <Tab key={i} label={tag} value={tag} className={tabValue === tag ? "customTabs-item-active" : "customTabs-item"} style={modeColor} />
                         ))}

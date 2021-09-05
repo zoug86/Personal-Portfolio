@@ -2,6 +2,7 @@
 .portfolio-container{
    padding: 10px;
    border-radius: 5px;
+   min-height: 100vh;
 }
 
 .customTabs .customTabs-item, .customTabs-item-active{
@@ -13,6 +14,7 @@
    font-weight: 400 !important;
    outline-width: 0 !important;
 }
+
 
 .customTabs-item-active{
     color: var(--main-color) !important;
