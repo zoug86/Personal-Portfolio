@@ -192,8 +192,8 @@ const resumeData = {
             //  description: 'This is a full website that uses authentication, authorization, API calls, security patches, MongoDB Atlas storage, and deployed on herokuapp.com.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/DigiThrifting', icon: <GitHubIcon /> },
-                { link: 'https://digithrifting.herokuapp.com/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/DigiThrifting', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://digithrifting.herokuapp.com/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -215,8 +215,8 @@ const resumeData = {
             //  description: 'A restaurant responsive website built with HTML, CSS, and Javascript.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/DJ-EVENTS', icon: <GitHubIcon /> },
-                { link: 'https://next-dj-events-2021.vercel.app/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/DJ-EVENTS', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://next-dj-events-2021.vercel.app/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -233,8 +233,8 @@ const resumeData = {
             //    description: 'A creative and responsive website design done in HTML, CSS, and JavaScript.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/CodeFever-Blog', icon: <GitHubIcon /> },
-                { link: 'https://code-fever-blog-zoug86.vercel.app/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/CodeFever-Blog', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://code-fever-blog-zoug86.vercel.app/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -251,8 +251,8 @@ const resumeData = {
             //    description: 'A JSON API cretaed with Node.js and JSON-server and provides a comprehensive list of all North American camp sites.',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/gamedb', icon: <GitHubIcon /> },
-                { link: 'https://zoug86.github.io/gamedb/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/gamedb', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://zoug86.github.io/gamedb/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -265,8 +265,8 @@ const resumeData = {
             //   description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/react-music-player', icon: <GitHubIcon /> },
-                { link: 'https://zoug86.github.io/react-music-player/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/react-music-player', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://zoug86.github.io/react-music-player/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -282,8 +282,8 @@ const resumeData = {
             //  description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/Weather-App-NextJS', icon: <GitHubIcon /> },
-                { link: 'https://weather-app-next-js-snowy.vercel.app/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/Weather-App-NextJS', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://weather-app-next-js-snowy.vercel.app/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -299,8 +299,8 @@ const resumeData = {
             // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/campgrounds_api', icon: <GitHubIcon /> },
-                { link: 'https://api-campgrounds.herokuapp.com/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/campgrounds_api', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://api-campgrounds.herokuapp.com/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -320,8 +320,8 @@ const resumeData = {
             // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/ChatApp-React', icon: <GitHubIcon /> },
-                { link: 'https://chat-with-react-app.netlify.app/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/ChatApp-React', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://chat-with-react-app.netlify.app/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -335,8 +335,8 @@ const resumeData = {
             //   description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/mapty-app', icon: <GitHubIcon /> },
-                { link: 'https://zoug86.github.io/mapty-app/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/mapty-app', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://zoug86.github.io/mapty-app/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -356,8 +356,8 @@ const resumeData = {
             // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/MC-Tutoring-Academy', icon: <GitHubIcon /> },
-                { link: 'https://zoug86.github.io/MC-Tutoring-Academy/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/MC-Tutoring-Academy', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://zoug86.github.io/MC-Tutoring-Academy/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -373,8 +373,8 @@ const resumeData = {
             //description: 'This is my project description. More will come later on...............',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/restaurant-website', icon: <GitHubIcon /> },
-                { link: 'https://zoug86.github.io/restaurant-website/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/restaurant-website', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://zoug86.github.io/restaurant-website/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -390,8 +390,8 @@ const resumeData = {
             // description: 'This is my project description. More will come later on...............',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/WebsiteCreativeDesign', icon: <GitHubIcon /> },
-                { link: 'https://zoug86.github.io/WebsiteCreativeDesign/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/WebsiteCreativeDesign', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://zoug86.github.io/WebsiteCreativeDesign/', icon: <Language />, text: 'Live Demo' }
             ],
         },
         {
@@ -410,8 +410,8 @@ const resumeData = {
             //description: 'This is my project description. More will come later on...............',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
-                { link: 'https://github.com/zoug86/Personal-Portfolio', icon: <GitHubIcon /> },
-                { link: 'https://personal-portfolio-zoug86.vercel.app/', icon: <Language /> }
+                { link: 'https://github.com/zoug86/Personal-Portfolio', icon: <GitHubIcon />, text: 'Github Repo' },
+                { link: 'https://personal-portfolio-zoug86.vercel.app/', icon: <Language />, text: 'Live Demo' }
             ],
         },
 

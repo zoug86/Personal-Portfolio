@@ -66,9 +66,12 @@ const Portfolio = ({ history }) => {
                     </DialogContent>
                     <DialogActions className="project-dialog-actions" style={modeBg}>
                         {projectDialog?.links?.map((link, i) => (
-                            <a key={i} href={link.link} target="_blank" rel="noreferrer" className="project-dialog-icon">
-                                {link.icon}
-                            </a>
+                            <div className="link-block">
+                                <a key={i} href={link.link} target="_blank" rel="noreferrer" className="project-dialog-icon">
+                                    {link.icon}
+                                </a>
+                                <p>{link.text}</p>
+                            </div>
                         ))}
                     </DialogActions>
                 </Dialog>

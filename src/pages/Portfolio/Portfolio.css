@@ -71,3 +71,11 @@
 .project-dialog .project-dialog-icon .MuiSvgIcon-root{
    font-size: 30px;
 }
+
+.link-block{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:center;
+   margin-right: 10px;
+}
