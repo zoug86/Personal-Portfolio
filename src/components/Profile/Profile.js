@@ -8,7 +8,7 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import CustomButton from '../Button/Button';
 import { ToggleContext } from '../../context/ToggleContext';
-import VisibilityIcon from '@material-ui/icons/Visibility';
+//import VisibilityIcon from '@material-ui/icons/Visibility';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 import resume from './Houssem_Marzougui_2021_Resume.pdf';
 
@@ -18,7 +18,7 @@ import './Profile.css';
 const CustomTimelineItem = ({ title, text, link }) => {
     const { toggle } = useContext(ToggleContext);
 
-    const modeBg = !toggle ? { background: '#1d1d01' } : { background: 'white' };
+    //const modeBg = !toggle ? { background: '#1d1d01' } : { background: 'white' };
     const modeColor = !toggle ? { color: 'white' } : { color: 'black' };
 
     return (
@@ -61,8 +61,7 @@ const Profile = () => {
                 </CustomTimeline>
                 <br />
                 <div className="btn-container">
-                    <CustomButton link={resume} text={'Resume'} icon={<CloudDownloadIcon />} />
-                    <p style={{ color: '#787878' }}>Preview<a href={resume} target='_blank' rel="noreferrer" className='btn-container-view'><VisibilityIcon style={{ color: '#ffc500', border: 'none' }} /></a></p>
+                    <CustomButton link={resume} text={'Resume'} icon={<CloudDownloadIcon target='_blank' rel="noreferrer" />} />
                 </div>
             </div>
         </div>

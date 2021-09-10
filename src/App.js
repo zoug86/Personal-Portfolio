@@ -37,7 +37,7 @@ function App() {
                 <div className="main-content container-shadow">
                   <Switch>
                     <Route exact path='/Resume' component={Resume} />
-                    <Route exact path='/Portfolio/:keyword' component={Portfolio} />
+                    <Route path='/Portfolio/:keyword' component={Portfolio} />
                     <Route exact path='/Portfolio' component={Portfolio} />
                     <Route exact path='/Contact' component={Contact} />
                     <Route exact path='/' component={Home} />

@@ -60,8 +60,11 @@ const Portfolio = ({ history }) => {
                         {projectDialog.images && (
                             <ImageGallery images={projectDialog.images} />
                         )}
-                        <Typography gutterBottom className="project-dialog-description">
+                        <Typography gutterBottom className="project-dialog-description" style={modeColor}>
                             {projectDialog.description}
+                        </Typography>
+                        <Typography gutterBottom className="project-dialog-features" style={modeColor}>
+                            <strong>Features: </strong>{projectDialog.features}
                         </Typography>
                     </DialogContent>
                     <DialogActions className="project-dialog-actions" style={modeBg}>
@@ -70,7 +73,7 @@ const Portfolio = ({ history }) => {
                                 <a key={i} href={link.link} target="_blank" rel="noreferrer" className="project-dialog-icon">
                                     {link.icon}
                                 </a>
-                                <p>{link.text}</p>
+                                <p style={modeColor}>{link.text}</p>
                             </div>
                         ))}
                     </DialogActions>

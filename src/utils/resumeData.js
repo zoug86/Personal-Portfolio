@@ -157,7 +157,8 @@ const resumeData = {
                 "Netlify",
                 "Vercel",
                 "Digital Ocean",
-                "Docker",
+                "Firebase",
+                "Docker (basic)",
                 "Postman"
             ]
 
@@ -189,7 +190,8 @@ const resumeData = {
             ],
             title: 'DIGTHRIFTING',
             caption: 'E-commerce MERN App.',
-            //  description: 'This is a full website that uses authentication, authorization, API calls, security patches, MongoDB Atlas storage, and deployed on herokuapp.com.',
+            description: 'A MERN e-commerce application for cheap electronics: We have the best prices! Main features: Shopping Cart, Admin panel, Login, Logout, Full payment process, Search products, Reviews, PayPal payment, etc.',
+            features: 'Frontend: React (Router, Redux), Bootstrap, Axios. Backend: Node.js, REST API, JWT, MongoDB.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/DigiThrifting', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -212,7 +214,8 @@ const resumeData = {
             ],
             title: 'DJ-Events',
             caption: 'A FullStack App.',
-            //  description: 'A restaurant responsive website built with HTML, CSS, and Javascript.',
+            description: 'Full-Stack website that allows users to check on upcoming DJ events uploaded by authenticated users.',
+            features: 'Frontend: Next.js (use of Context API), authentication (JWT and cookies).  Backend: Strapi (MySQL based).',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/DJ-EVENTS', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -230,7 +233,8 @@ const resumeData = {
             ],
             title: 'CodeFever Blog',
             caption: 'A Next.js Blog.',
-            //    description: 'A creative and responsive website design done in HTML, CSS, and JavaScript.',
+            description: 'Personal Blog about programming and web development.',
+            features: 'Next.js, Tailwind, Markdown files, Vercel.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/CodeFever-Blog', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -248,7 +252,8 @@ const resumeData = {
             ],
             title: 'GameDB',
             caption: 'A React Games App.',
-            //    description: 'A JSON API cretaed with Node.js and JSON-server and provides a comprehensive list of all North American camp sites.',
+            description: 'A responsive React site that displays all you need to know about video games.',
+            features: 'React, APIs, Styled Components, Framer Motion, Axios, Redux and Thunk.',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/gamedb', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -260,9 +265,10 @@ const resumeData = {
             images: ['https://lh3.googleusercontent.com/o1dIdTm2a-7_Uk4G0crv6D1a71pINbdthmEEgqKHw6uX3m8BEOv2MPLq74M5rk7-t4n3OUgVqvzQNQtuaEiimGxu35pAlYDhGvqBKIsrrpK9cu0khvUvJg4E6wwwzlCJOTudrU2iiwATMK6zKPgIzs8nqh7xJMFumc56tGV-Iw9BvoscuvJVUvzk_aIBjkk2qV85NEdQkXgOErGNSSC4E6VLOiTwiqzZ2LlhDHSWAHqVzBNGBRfo6DKhLbTx6b0ddWQPBd9OL7_YxeVrIrKcXnUjhnmMcMrgFeeff4lUg5E26eBFYHJolYtrtNL0_vd0kglBYTLP-Qsi1kZ8-oXgxYZgfgG_cmUwCXBdNC_HASZiENvZppK2mmGE08b3Y563_Vv0I8e_WJcm9VabVBB_BYIg7fk4qjqQa3ZiuGu_ngyi2JqKpgi80RjLYnjasbjRctzy0ETfOsImAVyt1M9xxHGOzsxFEbO8dcEFriWVsMmvsTUKeU8mk87B_cApCtULNZcn391y-hm6upWFOe5OlqkKu6FAiFlE7FdHjhe3w1PUUNkVy_is8WFs0jntiJr-rDvjLjNMirbwKsmRibhV5Kd6_nMS2KtZ440_LGTbA1pt_kger0rs-UGXBrRPyrGpfRlxnayh7-6r0-DN4MrbWNcJxwncbIOj96-ASIYD_2lfqEVXKys2ufD3mNOsDZZ9Zt0J6h4WOIrS7InZuz69qOk=w1684-h947-no?authuser=0',
                 'https://lh3.googleusercontent.com/JKnjqV31hycEceON4Vjwvu7PiOTudTC0MfGi03mQh9s9Gh4_Qj-ULaScL-VmeTEboccZ_lOZY1kYfm9ZNqNgZHqWhdztsRRR_Z9yKou3W6k8AFnpfGOOq_S3GJkdLy6MV4GnWX0hiHH9ZReiUdElvr1bz9yvNMBb1e6cxaF1IKaoPveUjluKdpJy0Vtkr22BN8x5iUe3-ld7QicfTbf8oRt8zTLSrTjV2SCFbffoXRLn-vMibNFsxy1IavEHGGSl8UTW61x8A4vKKmaLBUHAFfmXtB-I-oMbJv1muX_0bAtvAnuemdB5ytsEiQSJLgOMjTTR6jOr1iVJ2bQbfED_Z6k9HwtyUZIpbwyE8NdUhyK50iggmmxQ2sz7fdDYjXyCWKy5CMtmd9d3QgROTycydBTuBpWw2m6TfVFI5s-lWtIXYpvA-YMKA0ckhy5-jxZnKs0YbL_DWRXDglFfIsQUOYoVpeSjXydYZ_i8j1Q7-klCQN3LsMjtofYfrsQzQBdClMCx3w3JgEtXaC4IToTEL1r4Jw1ZqmOTqN0_WIf39LAOXKID69fXJAVCYlUnLElDFs1p5g3o2zNL_rL1kggxh7ZWbAUMmoeczHu7FXCYj490tSEk538X4-WDNL68eees-9m44_WfQCkJ8FUHBDFOs75Vg94zIojRXOzVO8_GsJyjIK_LHYXAfDZqF8jc0ULe5ouswvCSokU7fvm3lO0cXRw=w1684-h947-no?authuser=0'
             ],
-            title: 'Music-Player.',
+            title: 'ZougPlayer',
             caption: 'A React Music App.',
-            //   description: 'This is my project description. More will come later on...............',
+            description: 'A responsive music player application built with React.',
+            features: 'React, Sass.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/react-music-player', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -279,7 +285,8 @@ const resumeData = {
             ],
             title: 'Weather-app',
             caption: 'A Next.js Weather App.',
-            //  description: 'This is my project description. More will come later on...............',
+            description: 'A responsive Next.js web page that offers weather info to any city in the world, in addition to auto local current weather detection and news footer display.',
+            features: 'Next.js, Tailwind, Weather API, News API.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/Weather-App-NextJS', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -296,7 +303,8 @@ const resumeData = {
             ],
             title: 'Campgrounds-API',
             caption: 'json-server API App.',
-            // description: 'This is my project description. More will come later on...............',
+            description: 'An inclusive list of all North Americans Campgrounds (13000 sites!), all accessible through a REST API.',
+            features: 'Node.js, JSON-SERVER package, REST API.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/campgrounds_api', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -317,7 +325,8 @@ const resumeData = {
             ],
             title: 'Chat-with-react',
             caption: 'React and Node Chat App.',
-            // description: 'This is my project description. More will come later on...............',
+            description: 'A chat application that enables room users to group chat.',
+            features: 'React, Node.js, socket.io.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/ChatApp-React', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -332,7 +341,8 @@ const resumeData = {
             ],
             title: 'Mapty',
             caption: 'A Vanilla JS  Workout App.',
-            //   description: 'This is my project description. More will come later on...............',
+            description: 'A JavaScript application to log workout activities on a third party map.',
+            features: 'Vanilla.js (OOP), CSS, third party map (OpenStreetMap), Geolocaiton, LocalStorage, .',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/mapty-app', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -353,7 +363,8 @@ const resumeData = {
             ],
             title: 'MCTA',
             caption: 'A Business Webpage.',
-            // description: 'This is my project description. More will come later on...............',
+            description: 'A responsive client-side tutoring webpage that enables customers to discover what MCTA is all about.',
+            features: 'Vanilla.js, Bootstrap, PayPal payment SDK, LocalStorage.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/MC-Tutoring-Academy', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -370,7 +381,8 @@ const resumeData = {
             ],
             title: 'Restaurant-app',
             caption: 'Frontend Restaurant Webpage.',
-            //description: 'This is my project description. More will come later on...............',
+            description: 'A responsive frontend webpage for a restaurant.',
+            features: 'Vanilla.js, pure CSS, and HTML.',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/restaurant-website', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -387,7 +399,8 @@ const resumeData = {
             ],
             title: 'Creative-Design',
             caption: 'Frontend Business Webpage.',
-            // description: 'This is my project description. More will come later on...............',
+            description: 'A creative and responsive website design.',
+            features: 'Vanilla.js, pure CSS, and HTML.',
             links: [
                 //{ link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/WebsiteCreativeDesign', icon: <GitHubIcon />, text: 'Github Repo' },
@@ -407,7 +420,8 @@ const resumeData = {
             ],
             title: 'Portfolio',
             caption: 'React and Material-UI Portfolio.',
-            //description: 'This is my project description. More will come later on...............',
+            description: 'Personal Portfolio.',
+            features: 'React.js (React Router, Context API, Pagination, etc), Material-Ui, Bootstrap, Email.js.',
             links: [
                 // { link: 'https://www.google.com', icon: <YouTube /> },
                 { link: 'https://github.com/zoug86/Personal-Portfolio', icon: <GitHubIcon />, text: 'Github Repo' },
