@@ -68,14 +68,14 @@ const resumeData = {
             title: "Software Engineer",
             logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Armoiries_Forces_arm%C3%A9es_tunisiennes.svg/1200px-Armoiries_Forces_arm%C3%A9es_tunisiennes.svg.png",
             company: "Tunisian Naval Electronics Division",
-            date: "2015 - 2017",
-            description: "•	Developed a Tracking Software using TLD algorithm to enhance weapon systems by adding the capacity of auto- aiming (.Net/C#, DSP). \n•	Designed a smart ship engine surveillance system where Temperature and pressure are collected from the engine sensors using an Arduino board and communicated via TCP / IP connection to a Web App that ensures treating and displaying the data. (SPA, C++, Node - Red, JavaScript, SQL).",
+            date: "2016 - 2017",
+            description: "•	Developed a Technical report and messaging software to support Mechanical engineers on warships. (SQL, Node.js/JS). \n•	Developed and implemented facial recognition on Android for safe ship access. It involved knowledge of Android Java operating system, Eigen face recognition algorithm, and the ability to interface hardware and software (Android Java)",
         },
         {
             title: "Communications Officer",
             logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Armoiries_Forces_arm%C3%A9es_tunisiennes.svg/1200px-Armoiries_Forces_arm%C3%A9es_tunisiennes.svg.png",
             company: "Tunisian Navy",
-            date: "2011 - 2015",
+            date: "2011 - 2016",
             description: "Developed and supervised maintenance planning for all communication equipments onboard naval units to ensure full operational status of different satellite and terrestrial communication systems.."
         }
     ],
