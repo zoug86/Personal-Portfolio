@@ -42,6 +42,13 @@ const resumeData = {
     about: "I'm a computer and software engineer who constantly seeks out innovative solutions to everyday problems. Before my current position, I was a junior software engineer with the Tunisian Navy. While working there, I committed to ship system development, by developing several software systems to help improve ships operability. My previous experience along with my graduate research have honed my analytical thinking and collaboration skills.\n\nTwo years ago, I have fallen in love with web development and I am now a self-taught full stack developer who enjoys making full websites using a variety of technical tools. I love spending time debugging code, reading about new technologies and developing new gigs. I am currently developing a Node JS API that provides JSON COVID data related to Canada. This API is free and public and is rendered with POSTMAN.",
     experiences: [
         {
+            title: "Freelance Web Developer",
+            logo: "https://cdn.dribbble.com/users/1890753/screenshots/3907871/freelance-dribble.jpg?compress=1&resize=400x300",
+            company: "",
+            date: "2020 - Present",
+            description: "Developed and designed several personal and non-personal web sites that range from client-side static pages to full stack web applications - see Portfolio tab for complete projects list."
+        },
+        {
             title: "Remote Moderator",
             logo: "https://www.wayup.com/cdn/company_logo/XkdurYpgQf_20140918.jpg",
             company: "OneClass",
