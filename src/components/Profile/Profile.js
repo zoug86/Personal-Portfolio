@@ -10,7 +10,7 @@ import CustomButton from '../Button/Button';
 import { ToggleContext } from '../../context/ToggleContext';
 //import VisibilityIcon from '@material-ui/icons/Visibility';
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
-import resume from './Houssem_Marzougui_2021_Resume.pdf';
+import resume from './Houssem_Marzougui_Resume_2021.pdf';
 
 //styles
 import './Profile.css';
