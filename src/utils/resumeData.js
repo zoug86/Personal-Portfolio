@@ -7,7 +7,7 @@ import { AssignmentOutlined, /*YouTube*/ Language, ForumOutlined, GroupAddOutlin
 
 const resumeData = {
     name: "Houssem Marzougui",
-    title: " Full Stack Developer",
+    title: " Frontend Developer",
     email: "marzouguih86@gmail.com",
     address: "3837 Midgard Place, Victoria, BC",
     phone: "+1 778 318 7601",
@@ -39,35 +39,35 @@ const resumeData = {
             icon: <LocalLibraryIcon />
         },
     },
-    about: "I'm a computer and software engineer who constantly seeks out innovative solutions to everyday problems. Before my current position, I was a junior software engineer with the Tunisian Navy. While working there, I committed to ship system development, by developing several software systems to help improve ships operability. My previous experience along with my graduate research have honed my analytical thinking and collaboration skills.\n\nTwo years ago, I have fallen in love with web development and I am now a self-taught full stack developer who enjoys making full websites using a variety of technical tools. I love spending time debugging code, reading about new technologies and developing new gigs. I am currently developing a Node JS API that provides JSON COVID data related to Canada. This API is free and public and is rendered with POSTMAN.",
+    about: "I am a Frontend Developer who constantly seeks out innovative solutions to everyday problems. Before my current position, I was a junior software engineer with the Tunisian Navy. While working there, I committed to make an impact by developing several web applications to help improve ships operability. My previous experiences along with my graduate research have honed my analytical thinking and collaboration skills. I am seeking a full-time position in an engineering and professional innovation environment which offers key participation, team-oriented tasks, immediate challenges, and career opportunity.",
     experiences: [
         {
             title: "Freelance Web Developer",
             logo: "https://cdn.dribbble.com/users/1890753/screenshots/3907871/freelance-dribble.jpg?compress=1&resize=400x300",
             company: "",
             date: "2020 - Present",
-            description: "Developed and designed several personal and non-personal web sites that range from client-side static pages to full stack web applications - see Portfolio tab for complete projects list."
+            description: "• Developed and designed several personal and non-personal web sites that range from client-side static pages to full stack web applications - see Portfolio tab for complete projects list."
         },
         {
             title: "Remote Moderator",
             logo: "https://www.wayup.com/cdn/company_logo/XkdurYpgQf_20140918.jpg",
             company: "OneClass",
             date: "2018 - Present",
-            description: "Supervise and moderate platform educators to ensure highest quality service to students in North America in different computer science and engineering courses."
+            description: "• Supervise and moderate platform educators to ensure highest quality service to students in North America in different computer science and engineering courses."
         },
         {
             title: "Engineering Technical Analyst",
             date: "2019",
             logo: "https://media.tenor.com/images/76cfc2c79b7d2be1f9a8c291b558b852/tenor.png",
             company: "Deloitte",
-            description: "Produced and partially managed Scientific Research and Experimental Development (SR&ED) technical reports for clients in many industries including TMT and Manufacturing in English and French in a rapid and challenging work environment."
+            description: "• Produced and partially managed Scientific Research and Experimental Development (SR&ED) technical reports for clients in many industries including TMT and Manufacturing in English and French in a rapid and challenging work environment."
         },
         {
             title: "Research and Teaching Assistant",
             logo: "https://media.glassdoor.com/sqll/146432/university-of-victoria-squarelogo.png",
             company: "University of Victoria",
             date: "2017 - 2020",
-            description: "Implemented and simulated medical ultrasound imaging algorithms in Matlab using adaptive and conventional plane wave compounding techniques that reduced computational complexity and maintained similar image quality.",
+            description: "• Implemented and simulated medical ultrasound imaging algorithms in Matlab using adaptive and conventional plane wave compounding techniques that reduced computational complexity and maintained similar image quality.",
             publication: "https://ieeexplore.ieee.org/document/8925560"
 
         },
@@ -76,14 +76,14 @@ const resumeData = {
             logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Armoiries_Forces_arm%C3%A9es_tunisiennes.svg/1200px-Armoiries_Forces_arm%C3%A9es_tunisiennes.svg.png",
             company: "Tunisian Naval Electronics Division",
             date: "2016 - 2017",
-            description: "•	Developed a Technical report and messaging software to support Mechanical engineers on warships. (SQL, Node.js/JS). \n•	Developed and implemented facial recognition on Android for safe ship access. It involved knowledge of Android Java operating system, Eigen face recognition algorithm, and the ability to interface hardware and software (Android Java)",
+            description: "•	Developed a technical report and messaging application to help mechanical engineers on warships get instant feedback on different mechanical and electrical complicated issues – built with JS, Node.js, Socket.io and MongoDB. \n•	Developed a web application that allows logistics officers instant material purchase and stock availability check – built with React.js, Node.js and PostgreSQL.",
         },
         {
             title: "Communications Officer",
             logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Armoiries_Forces_arm%C3%A9es_tunisiennes.svg/1200px-Armoiries_Forces_arm%C3%A9es_tunisiennes.svg.png",
             company: "Tunisian Navy",
             date: "2011 - 2016",
-            description: "Developed and supervised maintenance planning for all communication equipments onboard naval units to ensure full operational status of different satellite and terrestrial communication systems.."
+            description: "• Developed and supervised maintenance planning for all communication equipments onboard naval units to ensure full operational status of different satellite and terrestrial communication systems.."
         }
     ],
     educations: [
@@ -132,18 +132,23 @@ const resumeData = {
             description: [
                 "HTML & CSS",
                 "JavaScript",
-                "React & Next JS",
+                "React.js, Next.js",
+                "Redux",
                 "Tailwind",
                 "Bootstrap",
-                "Material UI"
+                "Material UI",
+                "Jest",
+                "Enzyme"
             ]
 
         },
         {
             title: 'BACK_END',
             description: [
-                "Node JS",
-                "Express JS",
+                "Node.js",
+                "Express.js",
+                "Mocha",
+                "Chai",
             ]
 
         },
