@@ -111,12 +111,12 @@ export const Contact = () => {
                                 </Grid>
                                 <Grid item xs={12}>
                                     <Typography className="contactInfo-item">
-                                        <span style={modeColor}>E-mail: </span>{resumeData.email}
+                                        <span style={modeColor}>E-mail: </span>{resumeData.email_1}
                                     </Typography>
                                 </Grid>
                                 <Grid item xs={12}>
                                     <Typography className="contactInfo-item">
-                                        <span style={modeColor}>Skype: </span>{resumeData.skype}
+                                        <span style={modeColor}>E-mail: </span>{resumeData.email_2}
                                     </Typography>
                                 </Grid>
                             </Grid>

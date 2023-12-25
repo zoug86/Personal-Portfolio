@@ -7,11 +7,11 @@ import { AssignmentOutlined, /*YouTube*/ Language, ForumOutlined, GroupAddOutlin
 
 const resumeData = {
     name: "Houssem Marzougui",
-    title: " Frontend Developer",
-    email: "marzouguih86@gmail.com",
+    title: " React Developer",
+    email_1: "marzouguih86@gmail.com",
+    email_2: "houssem.marzougui@japrtech.com",
     address: "3837 Midgard Place, Victoria, BC",
-    phone: "+1 778 318 7601",
-    skype: "zoug86",
+    phone: "+1 778-318-7601",
     socials: {
         Facebook: {
             link: "https://www.facebook.com/elhoss86USNA11",
@@ -28,8 +28,13 @@ const resumeData = {
             text: "linkedIn",
             icon: <LinkedInIcon />
         },
-        Github: {
+        Github_1: {
             link: "https://github.com/zoug86",
+            text: "github",
+            icon: <GitHubIcon />
+        },
+        Github_2: {
+            link: "https://github.com/usna11",
             text: "github",
             icon: <GitHubIcon />
         },
@@ -39,20 +44,27 @@ const resumeData = {
             icon: <LocalLibraryIcon />
         },
     },
-    about: "I am a Frontend Developer who constantly seeks out innovative solutions to everyday problems. Before my current position, I was a junior software engineer with the Tunisian Navy. While working there, I committed to make an impact by developing several web applications to help improve ships operability. My previous experiences along with my graduate research have honed my analytical thinking and collaboration skills. I am seeking a full-time position in an engineering and professional innovation environment which offers key participation, team-oriented tasks, immediate challenges, and career opportunity.",
+    about: "Hello, and thank you for taking the time to learn more about me! I am a Frontend Developer who constantly seeks out innovative solutions to everyday problems. Before my current position, I was a junior software engineer with the Tunisian Navy. While working there, I committed to make an impact by developing several web applications to help improve ships operability. My previous experiences along with my graduate research have honed my analytical thinking and collaboration skills. I am seeking a full-time position in an engineering and professional innovation environment which offers key participation, team-oriented tasks, immediate challenges, and career opportunity.",
     experiences: [
+        {
+            title: "React Developer",
+            logo: "https://www.japrtech.com/assets/img/logo.png",
+            company: "JAPR Technologies",
+            date: "2022 - Present",
+            description: "• Developed new UI features and improved code coverage for a healthcare application (myaidin.com) that serves thousands of users daily, using React (classes and hooks based) and Redux. \n• Brainstormed new automated unit and integration test strategies and consistently increased test coverage to ensure 100% quality results using Jest, React testing, and Cypress libraries.",
+        },
         {
             title: "Freelance Web Developer",
             logo: "https://cdn.dribbble.com/users/1890753/screenshots/3907871/freelance-dribble.jpg?compress=1&resize=400x300",
             company: "",
-            date: "2020 - Present",
+            date: "2020 - 2022",
             description: "• Developed and designed several personal and non-personal web sites that range from client-side static pages to full stack web applications - see Portfolio tab for complete projects list."
         },
         {
             title: "Remote Moderator",
             logo: "https://www.wayup.com/cdn/company_logo/XkdurYpgQf_20140918.jpg",
             company: "OneClass",
-            date: "2018 - Present",
+            date: "2018 - 2022",
             description: "• Supervise and moderate platform educators to ensure highest quality service to students in North America in different computer science and engineering courses."
         },
         {

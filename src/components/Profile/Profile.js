@@ -53,7 +53,8 @@ const Profile = () => {
                 <CustomTimeline icon={<AccountBoxIcon />}>
                     <CustomTimelineItem title='Name' text={resumeData.name} />
                     <CustomTimelineItem title='Title' text={resumeData.title} />
-                    <CustomTimelineItem title='Email' text={resumeData.email} />
+                    <CustomTimelineItem title='Email' text={resumeData.email_1} />
+                    <CustomTimelineItem title='Email' text={resumeData.email_2} />
                     <CustomTimelineItem title='Phone' text={resumeData.phone} />
                     {/* {Object.keys(resumeData.socials).map(key => {
                         return <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
