@@ -183,7 +183,8 @@ const resumeData = {
                 "Digital Ocean",
                 "Firebase",
                 "Docker (basic)",
-                "Postman"
+                "Postman",
+                "Circleci",
             ]
 
         }
