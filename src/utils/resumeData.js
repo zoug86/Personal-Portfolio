@@ -44,7 +44,7 @@ const resumeData = {
             icon: <LocalLibraryIcon />
         },
     },
-    about: "Hello, and thank you for taking the time to learn more about me! I am a Frontend Developer who constantly seeks out innovative solutions to everyday problems. Before my current position, I was a junior software engineer with the Tunisian Navy. While working there, I committed to make an impact by developing several web applications to help improve ships operability. My previous experiences along with my graduate research have honed my analytical thinking and collaboration skills. I am seeking a full-time position in an engineering and professional innovation environment which offers key participation, team-oriented tasks, immediate challenges, and career opportunity.",
+    about: "Greetings 😃, and thank you for your interest in getting to know more about me! I am a dedicated Frontend Developer with a passion for discovering creative solutions to everyday challenges. In my present role, I am actively engaged in crafting and deploying inventive solutions for a healthcare web application, prioritizing both performance and quality. My past experiences, coupled with my graduate research, have finely tuned my analytical thinking and collaborative abilities. I am currently in search of a full-time position within an engineering and professional innovation setting, where I can contribute meaningfully, engage in team-oriented projects, tackle immediate challenges, and explore avenues for career advancement.",
     experiences: [
         {
             title: "React Developer",
@@ -157,6 +157,7 @@ const resumeData = {
         {
             title: 'BACK_END',
             description: [
+                "Ruby on Rails",
                 "Node.js",
                 "Express.js",
                 "Mocha",
