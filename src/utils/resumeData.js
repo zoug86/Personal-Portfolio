@@ -167,6 +167,7 @@ const resumeData = {
         {
             title: 'DATABASES',
             description: [
+                "PostgreSQL",
                 "MySQL",
                 "MongoDB",
                 "Strapi"
